@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+button {
+  width: 75px;
+  margin: 15px;
+  background-color: white;
+  border: 0px solid white;
+}
+
+button:hover {
+  cursor: pointer;
+  border-bottom: 1px solid red;
+}
