@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import './App.css';
 import Header from './Header/Header'
+import Homepage from './Homepage/Homepage'
+import About from './About/About'
+import Projects from './Projects/Projects'
+import Contact from './Contact/Contact'
 import Footer from './Footer/Footer'
 
 const App = () => {
@@ -10,13 +14,13 @@ const App = () => {
   let page = null;
 
   if (view === 'home') {
-    page = <h1>HOMEPAGE</h1>
+    page = <Homepage />
   } else if (view === 'about') {
-    page = <h1>ABOUT</h1>
+    page = <About />
   } else if (view === 'projects') {
-    page = <h1>PROJECTS</h1>
+    page = <Projects />
   } else if (view === 'contact') {
-    page = <h1>CONTACT</h1>
+    page = <Contact />
   }
 
   return (
