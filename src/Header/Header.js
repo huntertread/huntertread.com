@@ -2,6 +2,7 @@ import React from 'react'
 import './header.css'
 
 const Header = ({ setView }) => {
+
   return (
     <div className="header">
       <button onClick={() => setView('home')}>Home</button>
