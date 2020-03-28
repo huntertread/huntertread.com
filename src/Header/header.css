@@ -11,9 +11,11 @@ button {
   margin: 15px;
   background-color: white;
   border: 0px solid white;
+  transition: border-bottom .3s, width .3s;
 }
 
 button:hover {
   cursor: pointer;
   border-bottom: 1px solid red;
+  width: 100px;
 }
