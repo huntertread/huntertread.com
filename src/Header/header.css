@@ -1,9 +1,56 @@
-.header {
+.header-home {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: center;
   flex-wrap: wrap;
   width: 100%;
+  background-color: black;
+  transition: background-color 1s;
+}
+
+.header-home button {
+  width: 75px;
+  margin: 15px;
+  background-color: black;
+  border: 0px solid black;
+  color: greenyellow;
+  transition: border-bottom .3s, width .3s, background-color 1s, color 1s;
+}
+
+.header-home button:hover {
+  cursor: pointer;
+  border-bottom: 1px solid greenyellow;
+}
+
+.header-home .selected {
+  border-bottom: 1px solid greenyellow;
+}
+
+.header-about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  transition: background-color 1s;
+}
+
+.header-projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  transition: background-color 1s;
+}
+
+.header-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  transition: background-color 1s;
 }
 
 button {
@@ -17,5 +64,8 @@ button {
 button:hover {
   cursor: pointer;
   border-bottom: 1px solid red;
-  width: 100px;
+}
+
+.selected {
+  border-bottom: 1px solid red;
 }

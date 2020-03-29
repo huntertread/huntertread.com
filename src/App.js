@@ -25,9 +25,9 @@ const App = () => {
 
   return (
     <div className="App">
-      <Header setView={setView} />
+      <Header view={view} setView={setView} />
       {page}
-      <Footer />
+      <Footer view={view}/>
     </div>
   );
 }
