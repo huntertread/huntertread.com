@@ -1,5 +1,6 @@
 .footer-home {
   background-color: black;
+  box-shadow: 0 50vh 0 50vh #000; /* creates illusion that footer extends to bottom of the page */
 }
 
 .footer-home a {

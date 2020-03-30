@@ -4,7 +4,10 @@ import './homepage.css'
 const Homepage = () => {
   return (
     <div className="homepage">
-      <h1>WELCOME TO HUNTER TREADAWAY</h1>
+      <h1>...WELCOME TO</h1>
+      <h1>HUNTER</h1>
+      <h1>TREADAWAY</h1>
+      <h2>q h</h2>
     </div>
   )
 }

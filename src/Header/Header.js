@@ -5,11 +5,17 @@ const Header = ({ view, setView }) => {
 
   if (view === 'home') {
     return (
+      // <div className="header-home">
+      //   <button className="selected" onClick={() => setView('home')}>Home</button>
+      //   <button onClick={() => setView('about')}>About</button>
+      //   <button onClick={() => setView('projects')}>Projects</button>
+      //   <button onClick={() => setView('contact')}>Contact</button>
+      // </div>
       <div className="header-home">
-        <button className="selected" onClick={() => setView('home')}>Home</button>
-        <button onClick={() => setView('about')}>About</button>
-        <button onClick={() => setView('projects')}>Projects</button>
-        <button onClick={() => setView('contact')}>Contact</button>
+        <a className="selected" href="#" alt="go to home" onClick={() => setView('home')}>Home</a>
+        <a href="#" alt="go to about" onClick={() => setView('about')}>About</a>
+        <a href="#" alt="go to projects" onClick={() => setView('projects')}>Projects</a>
+        <a href="#" alt="go to contact" onClick={() => setView('contact')}>Contact</a>
       </div>
     )
   } else if (view === 'about') {
