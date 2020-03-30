@@ -1,3 +1,20 @@
-.footer a {
-  margin: 5px;
+.footer-home {
+  background-color: black;
+}
+
+.footer-home a {
+  margin: 10px;
+  color: greenyellow;
+}
+
+.footer-about {
+
+}
+
+.footer-projects {
+
+}
+
+.footer-contact {
+
 }
