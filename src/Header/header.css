@@ -7,7 +7,7 @@
   flex-wrap: wrap;
   width: 100%;
   background-color: black;
-  transition: background-color 1s;
+  /* transition: background-color 1s; */
   font-family: HolyDiver;
 }
 
@@ -19,7 +19,7 @@
   background-color: black;
   border: 0px solid black;
   color: greenyellow;
-  transition: border-bottom .3s, width .3s, background-color 1s, color 1s;
+  transition: border-bottom .3s, width .3s;
 }
 
 .header-home a:hover {
@@ -37,7 +37,7 @@
   justify-content: center;
   flex-wrap: wrap;
   width: 100%;
-  transition: background-color 1s;
+  /* transition: background-color 1s; */
 }
 
 .header-projects {
@@ -46,7 +46,7 @@
   justify-content: center;
   flex-wrap: wrap;
   width: 100%;
-  transition: background-color 1s;
+  /* transition: background-color 1s; */
 }
 
 .header-contact {
@@ -55,7 +55,7 @@
   justify-content: center;
   flex-wrap: wrap;
   width: 100%;
-  transition: background-color 1s;
+  /* transition: background-color 1s; */
 }
 
 button {
