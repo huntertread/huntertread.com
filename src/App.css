@@ -1,6 +1,16 @@
+@font-face {font-family: HolyDiver; src: url('./customFonts/holy-diver/holy-diver-nes.ttf');}
+
 .App {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   text-align: center;
+  background-color: black;
+  font-family: HolyDiver;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: calc(50px + (100 - 50) * ((100vw - 300px) / (1600 - 300))); /* dynamic font resize with window */
+  font-weight: normal;
 }

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Header from './Header/Header'
 import Homepage from './Homepage/Homepage'
 import About from './About/About'
@@ -9,25 +9,14 @@ import './App.css';
 
 const App = () => {
 
-  const [view, setView] = useState('home')
-
-  let page = null;
-
-  if (view === 'home') {
-    page = <Homepage />
-  } else if (view === 'about') {
-    page = <About />
-  } else if (view === 'projects') {
-    page = <Projects />
-  } else if (view === 'contact') {
-    page = <Contact />
-  }
-
   return (
     <div className="App">
-      <Header view={view} setView={setView} />
-      {page}
-      <Footer view={view}/>
+      <Header />
+      <Homepage />
+      <About />
+      <Projects />
+      <Contact />
+      <Footer />
     </div>
   );
 }
