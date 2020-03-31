@@ -14,3 +14,7 @@ h1 {
   font-size: calc(50px + (100 - 50) * ((100vw - 300px) / (1600 - 300))); /* dynamic font resize with window */
   font-weight: normal;
 }
+
+h2 {
+  font-weight: normal;
+}
