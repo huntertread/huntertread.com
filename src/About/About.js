@@ -6,8 +6,8 @@ const About = () => {
     <div id="about-section" className="about">
       <h1>ABOUT</h1>
       <h2>hunter is a human from earth who likes to make things with:</h2>
-      <p>Javascript | HTML | CSS | python | bash</p>
-      <p>React | React-Native | Viro-React | Styled-Components | D3 | jQuery | node.js</p>
+      <p>JavaScript | HTML5 | CSS3 | Python | Bash</p>
+      <p>React | React-Native | ViroReact | Styled-Components | D3 | jQuery | node.js</p>
       <p>MySQL | PostgreSQL | MongoDB</p>
       <p>windows | linux | mac</p>
       <p>spray-paint</p>

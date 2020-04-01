@@ -6,12 +6,12 @@
   flex-wrap: wrap;
   text-align: center;
   background-color: black;
-  font-family: HolyDiver;
+  /* font-family: HolyDiver; */
   font-weight: normal;
 }
 
 h1 {
-  font-size: calc(50px + (100 - 50) * ((100vw - 300px) / (1600 - 300))); /* dynamic font resize with window */
+  font-size: calc(50px + (80 - 50) * ((100vw - 300px) / (1600 - 300))); /* dynamic font resize with window */
   font-weight: normal;
 }
 
