@@ -1,17 +1,8 @@
-@font-face {font-family: MONO; src: url('../customFonts/mononokekeh/mononokekeh.ttf');}
-
 .homepage {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: space-around;
-  color: greenyellow;
+  align-content: center;
+  color: #00ff03;
   min-height: 100vh;
-  /* transition: background-color 1s, color 1s; */
-}
-
-.homepage h2 {
-  font-family: MONO;
-  font-size: 100px;
-  font-weight: normal;
 }

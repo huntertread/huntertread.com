@@ -1,9 +1,20 @@
 .footer {
   background-color: black;
   margin-bottom: 20px;
+  color: #01fffe;
 }
 
 .footer a {
-  margin: 10px;
-  color: greenyellow;
+  text-decoration: none;
+  font-size: 20px;
+  width: 85px;
+  margin: 20px;
+  border: 0px solid black;
+  color: #01fffe;
+  transition: border-bottom .3s, width .3s;
+}
+
+.footer a:hover {
+  cursor: pointer;
+  border-bottom: 1px solid #01fffe;
 }

@@ -1,4 +1,7 @@
 .contact {
-  color: purple;
-  min-height: 95vh;
+  color: #01fffe;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 90vh;
 }
