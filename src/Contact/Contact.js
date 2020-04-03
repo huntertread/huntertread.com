@@ -8,7 +8,7 @@ const Contact = () => {
       <div className="contact-content">
         <p>email: huntertread at gmail</p>
       </div>
-      <h2>abcdefg</h2>
+      <h2>aaaa</h2>
     </div>
   )
 }

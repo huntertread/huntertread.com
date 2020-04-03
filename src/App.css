@@ -1,3 +1,5 @@
+/* THIS FILE CONTAINS GLOBAL STYLES, FONT IMPORTS AND MEDIA QUERY RULES */
+
 @font-face {font-family: HolyDiver; src: url('./customFonts/holy-diver/holy-diver-nes.ttf');}
 @font-face {font-family: MONO; src: url('./customFonts/mononokekeh/mononokekeh.ttf');}
 
@@ -6,18 +8,127 @@
   flex-direction: column;
   flex-wrap: wrap;
   text-align: center;
-  background-color: black;
   font-weight: normal;
 }
 
 h1 {
-  font-size: calc(50px + (80 - 50) * ((100vw - 300px) / (1600 - 300))); /* dynamic font resize with window */
+  font-size: calc(80px + (100 - 80) * ((100vw - 300px) / (1600 - 300))); /* dynamic resize with window */
   font-family: HolyDiver;
   font-weight: normal;
+}
+
+.character-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 h2 {
   font-family: MONO;
   font-size: 100px;
   font-weight: normal;
+  margin: 0px 40px;
+}
+
+@media (max-width: 420px) {
+  p {
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+  
+  .homepage {
+    min-height: 150vh;
+  }
+
+  .about {
+    min-height: 150vh;
+  }
+
+  .projects {
+    min-height: 150vh;
+  }
+
+  .contact {
+    min-height: 130vh;
+  }
+
+  .header-home a {
+    text-decoration: none;
+    font-size: 30px;
+    width: 100px;
+    margin: 20px;
+    border: 0px solid black;
+    color: #00ff03;
+    transition: border-bottom .3s, width .3s;
+  }
+
+  .header-home a:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #00ff03;
+  }
+  
+  .header-home .selected {
+    border-bottom: 2px solid #00ff03;
+  }
+  
+  .header-about a {
+    text-decoration: none;
+    font-size: 30px;
+    width: 100px;
+    margin: 20px;
+    border: 0px solid black;
+    color: #ff0002;
+    transition: border-bottom .3s, width .3s;
+  }
+  
+  .header-about a:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #ff0002;
+  }
+  
+  .header-about .selected {
+    border-bottom: 2px solid #ff0002;
+  }
+  
+  .header-projects a {
+    text-decoration: none;
+    font-size: 30px;
+    width: 100px;
+    margin: 20px;
+    border: 0px solid black;
+    color: #fdff00;
+    transition: border-bottom .3s, width .3s;
+  }
+  
+  .header-projects a:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #fdff00;
+  }
+  
+  .header-projects .selected {
+    border-bottom: 2px solid #fdff00;
+  }
+  
+  .header-contact a {
+    text-decoration: none;
+    font-size: 30px;
+    width: 100px;
+    margin: 20px;
+    border: 0px solid black;
+    color: #01fffe;
+    transition: border-bottom .3s, width .3s;
+  }
+  
+  .header-contact a:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #01fffe;
+  }
+  
+  .header-contact .selected {
+    border-bottom: 2px solid #01fffe;
+  }
 }

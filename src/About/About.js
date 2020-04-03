@@ -13,7 +13,7 @@ const About = () => {
         <p>windows | linux | mac</p>
       </div>
       {/* <img src={require("../img/SoftCuddly.png")} alt="soft and cuddly game map" /> */}
-      <h2>poiuery</h2>
+      <h2>yuyuy</h2>
     </div>
   )
 }
