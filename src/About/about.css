@@ -6,6 +6,11 @@
   min-height: 100vh;
 }
 
+.about-headline {
+  max-width: 575px;
+  margin: auto;
+}
+
 img {
   width:90%;
   height: 90%;
