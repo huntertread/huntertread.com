@@ -1,13 +1,13 @@
 .accordion-header {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   margin: auto;
   max-width: 500px;
   border-bottom: 1px solid #fdff00;
 }
 
-.accordion-drawer-open {
+.accordion-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,17 +17,27 @@
 }
 
 .project-cta {
-  text-decoration: none;
+  text-decoration: underline;
   margin: 15px auto;
   height: 30px;
   max-width: 400px;
   min-width: 200px;
-  background-color: #ff0002;
-  color: black;
+  color: #fdff00;
   border-radius: 3px;
+  transition: transform .3s, color .3s;
 }
 
 .project-cta:hover {
   cursor: pointer;
-  background-color: #00ff03;
+  color: white;
+  transform: scale(1.1);
+}
+
+.fa-plus {
+  transition: transform .3s;
+  margin-top: 30px;
+}
+
+#open {
+  transform: rotate(45deg);
 }
