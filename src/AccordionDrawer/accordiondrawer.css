@@ -11,9 +11,11 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-content: center;
   margin: auto;
   max-width: 500px;
   border-bottom: 1px solid #fdff00;
+  position: relative;
 }
 
 .project-cta {
@@ -24,18 +26,22 @@
   min-width: 200px;
   color: #fdff00;
   border-radius: 3px;
-  transition: transform .3s, color .3s;
+  transition: color .3s;
 }
 
 .project-cta:hover {
   cursor: pointer;
   color: white;
-  transform: scale(1.1);
 }
 
 .fa-plus {
-  transition: transform .3s;
-  margin-top: 30px;
+  transition: transform .3s, color .3s;
+  margin-top: 25px;
+}
+
+.fa-plus:hover {
+  cursor: pointer;
+  color: white;
 }
 
 #open {

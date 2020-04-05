@@ -3,7 +3,7 @@ import './accordiondrawer.css'
 
 let counter = 0;
 
-const AccordionDrawer = ({title, content, link}) => {
+const AccordionDrawer = ({title, content, link, cta}) => {
 
   const [isOpen, setIsOpen] = useState(false)
   const [iconState, setIconState] = useState('closed')
@@ -26,7 +26,7 @@ const AccordionDrawer = ({title, content, link}) => {
     accContent =
       <div className="accordion-content">
         <p>{content}</p>
-        <a className="project-cta" href={link} target="blank" alt={`go to ${title} source code or live example`}>Go to content source</a>
+        <a className="project-cta" href={link} target="blank" alt={`go to ${title} source code or live example`}>{cta}</a>
       </div>
   }
 
