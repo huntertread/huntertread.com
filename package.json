@@ -2,7 +2,7 @@
   "name": "huntertread.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://huntertread.github.io",
+  "homepage": "https://huntertread.github.io/personal-site",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -15,7 +15,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
