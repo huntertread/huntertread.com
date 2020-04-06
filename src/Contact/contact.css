@@ -6,9 +6,9 @@
   min-height: 90vh;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 520px) {
   .contact {
-    min-height: 130vh;
+    min-height: 90vh;
     width: 100vw;
   }
 }

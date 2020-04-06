@@ -10,7 +10,7 @@ const Header = () => {
   if (view === 'home') {
     return (
       <div>
-        <MediaQuery minDeviceWidth={420}>
+        <MediaQuery minDeviceWidth={520}>
           <nav role="banner navigation" aria-label="Main Navigation" className="header-home">
             <a href="#home-section" alt="go to home" className="selected" onClick={() => setView('home')}>Home</a>
             <a href="#about-section" alt="go to about" onClick={() => setView('about')}>About</a>
@@ -18,7 +18,7 @@ const Header = () => {
             <a href="#contact-section" alt="go to contact" onClick={() => setView('contact')}>Contact</a>
           </nav>
         </MediaQuery>
-        <MediaQuery maxDeviceWidth={420}>
+        <MediaQuery maxDeviceWidth={520}>
           <HamburgerNav view={view} setView={setView}/>
         </MediaQuery>
       </div>
@@ -26,7 +26,7 @@ const Header = () => {
   } else if (view === 'about') {
     return (
       <div>
-        <MediaQuery minDeviceWidth={420}>
+        <MediaQuery minDeviceWidth={520}>
           <nav role="banner navigation" aria-label="Main Navigation" className="header-about">
             <a href="#home-section" alt="go to home" onClick={() => setView('home')}>Home</a>
             <a href="#about-section" alt="go to about" className="selected" onClick={() => setView('about')}>About</a>
@@ -34,7 +34,7 @@ const Header = () => {
             <a href="#contact-section" alt="go to contact" onClick={() => setView('contact')}>Contact</a>
           </nav>
         </MediaQuery>
-        <MediaQuery maxDeviceWidth={420}>
+        <MediaQuery maxDeviceWidth={520}>
           <HamburgerNav view={view} setView={setView}/>
         </MediaQuery>
       </div>
@@ -42,7 +42,7 @@ const Header = () => {
   } else if (view === 'projects') {
     return (
       <div>
-        <MediaQuery minDeviceWidth={420}>
+        <MediaQuery minDeviceWidth={520}>
           <nav role="banner navigation" aria-label="Main Navigation" className="header-projects">
             <a href="#home-section" alt="go to home" onClick={() => setView('home')}>Home</a>
             <a href="#about-section" alt="go to about" onClick={() => setView('about')}>About</a>
@@ -50,7 +50,7 @@ const Header = () => {
             <a href="#contact-section" alt="go to contact" onClick={() => setView('contact')}>Contact</a>
           </nav>
         </MediaQuery>
-        <MediaQuery maxDeviceWidth={420}>
+        <MediaQuery maxDeviceWidth={520}>
           <HamburgerNav view={view} setView={setView}/>
         </MediaQuery>
       </div>
@@ -58,7 +58,7 @@ const Header = () => {
   } else if (view === 'contact') {
     return (
       <div>
-        <MediaQuery minDeviceWidth={420}>
+        <MediaQuery minDeviceWidth={520}>
           <nav role="banner navigation" aria-label="Main Navigation" className="header-contact">
             <a href="#home-section" alt="go to home" onClick={() => setView('home')}>Home</a>
             <a href="#about-section" alt="go to about" onClick={() => setView('about')}>About</a>
@@ -66,7 +66,7 @@ const Header = () => {
             <a href="#contact-section" alt="go to contact" className="selected" onClick={() => setView('contact')}>Contact</a>
           </nav>
         </MediaQuery>
-        <MediaQuery maxDeviceWidth={420}>
+        <MediaQuery maxDeviceWidth={520}>
           <HamburgerNav view={view} setView={setView}/>
         </MediaQuery>
       </div>

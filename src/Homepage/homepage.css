@@ -6,9 +6,9 @@
   min-height: 100vh;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 520px) {
   .homepage {
-    min-height: 150vh;
+    min-height: 100vh;
     width: 100vw;
   }
 }
