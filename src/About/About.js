@@ -13,7 +13,6 @@ const About = () => {
         <p>windows | linux | mac</p>
       </div>
       <a href="./downloadFiles/Hunter_Treadaway_Software_Engineering_Resume.pdf" download>Download My Resume</a>
-      {/* <img src={require("../img/SoftCuddly.png")} alt="soft and cuddly game map" /> */}
       <p className="character-container">yuyuy</p>
     </main>
   )

@@ -5,3 +5,10 @@
   justify-content: center;
   min-height: 90vh;
 }
+
+@media (max-width: 420px) {
+  .contact {
+    min-height: 130vh;
+    width: 100vw;
+  }
+}

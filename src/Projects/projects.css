@@ -5,3 +5,10 @@
   justify-content: center;
   min-height: 100vh;
 }
+
+@media (max-width: 420px) {
+  .projects {
+    min-height: 150vh;
+    width: 100vw;
+  }
+}

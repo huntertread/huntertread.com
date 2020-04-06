@@ -1,0 +1,56 @@
+.header-home-mobile {
+  width: 100vw;
+  display: flex;
+  flex-direction: row-reverse;
+  position: fixed;
+  background-color: black;
+}
+
+.header-home-mobile i {
+  color: #00ff03;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.header-about-mobile {
+  width: 100vw;
+  display: flex;
+  flex-direction: row-reverse;
+  position: fixed;
+  background-color: black;
+}
+
+.header-about-mobile i {
+  color: #ff0002;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.header-project-mobile {
+  width: 100vw;
+  display: flex;
+  flex-direction: row-reverse;
+  position: fixed;
+  background-color: black;
+}
+
+.header-project-mobile i {
+  color: #fdff00;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.header-contact-mobile {
+  width: 100vw;
+  display: flex;
+  flex-direction: row-reverse;
+  position: fixed;
+  background-color: black;
+}
+
+.header-contact-mobile i {
+  color: #01fffe;
+  margin: 10px;
+  font-size: 20px;
+
+}

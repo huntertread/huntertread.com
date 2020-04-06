@@ -20,10 +20,9 @@
   color: white;
 }
 
-img {
-  width:90%;
-  height: 90%;
-  max-width: 700px;
-  margin: 30px;
+@media (max-width: 420px) {
+  .about {
+    min-height: 150vh;
+    width: 100vw;
+  }
 }
-

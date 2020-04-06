@@ -113,3 +113,85 @@
 .header-contact .selected {
   border-bottom: 1px solid #01fffe;
 }
+
+@media (max-width: 420px) {
+  .header-home {
+    width: 100vw;
+  }
+
+  .header-home a {
+    text-decoration: none;
+    font-size: 30px;
+    width: 100px;
+    margin: 20px;
+    border: 0px solid black;
+    color: #00ff03;
+    transition: border-bottom .3s, width .3s;
+  }
+
+  .header-home a:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #00ff03;
+  }
+
+  .header-home .selected {
+    border-bottom: 2px solid #00ff03;
+  }
+
+  .header-about a {
+    text-decoration: none;
+    font-size: 30px;
+    width: 100px;
+    margin: 20px;
+    border: 0px solid black;
+    color: #ff0002;
+    transition: border-bottom .3s, width .3s;
+  }
+
+  .header-about a:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #ff0002;
+  }
+
+  .header-about .selected {
+    border-bottom: 2px solid #ff0002;
+  }
+
+  .header-projects a {
+    text-decoration: none;
+    font-size: 30px;
+    width: 100px;
+    margin: 20px;
+    border: 0px solid black;
+    color: #fdff00;
+    transition: border-bottom .3s, width .3s;
+  }
+
+  .header-projects a:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #fdff00;
+  }
+
+  .header-projects .selected {
+    border-bottom: 2px solid #fdff00;
+  }
+
+  .header-contact a {
+    text-decoration: none;
+    font-size: 30px;
+    width: 100px;
+    margin: 20px;
+    border: 0px solid black;
+    color: #01fffe;
+    transition: border-bottom .3s, width .3s;
+  }
+
+  .header-contact a:hover {
+    cursor: pointer;
+    border-bottom: 2px solid #01fffe;
+  }
+
+  .header-contact .selected {
+    border-bottom: 2px solid #01fffe;
+  }
+}

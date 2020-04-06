@@ -1,0 +1,15 @@
+.open-burger {
+  background-color: pink;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.open-burger a {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}

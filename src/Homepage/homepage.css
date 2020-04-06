@@ -5,3 +5,10 @@
   color: #00ff03;
   min-height: 100vh;
 }
+
+@media (max-width: 420px) {
+  .homepage {
+    min-height: 150vh;
+    width: 100vw;
+  }
+}
