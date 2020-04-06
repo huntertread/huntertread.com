@@ -26,7 +26,7 @@ const Projects = () => {
   const sysDisCta = 'View source-code on GitHub'
 
   return (
-    <div id="project-section" className="projects">
+    <main role="main" id="project-section" className="projects">
       <h1>PROJECTS</h1>
       <div className="projects-content">
         <AccordionDrawer title={'huntertreadaway.com'} content={htContent} link={htLink} cta={htCta} />
@@ -34,8 +34,8 @@ const Projects = () => {
         <AccordionDrawer title={'e-comm components'} content={ecommContent} link={ecommLink} cta={ecommCta} />
         <AccordionDrawer title={'system design capstone'} content={sysDisContent} link={sysDisLink} cta={sysDisCta} />
       </div>
-      <h2>hunter</h2>
-    </div>
+      <p className="character-container">hunter</p>
+    </main>
   )
 }
 

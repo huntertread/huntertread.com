@@ -3,7 +3,7 @@ import './about.css'
 
 const About = () => {
   return (
-    <div id="about-section" className="about">
+    <main role="main" id="about-section" className="about">
       <h1>ABOUT</h1>
       <div className="about-content">
         <h3 className="about-headline">Hunter is a web developer residing in Los Angeles, CA. He aims to surprise users with unexpected interactions and design choices. He enjoys working with:</h3>
@@ -12,9 +12,10 @@ const About = () => {
         <p>MySQL | PostgreSQL | MongoDB</p>
         <p>windows | linux | mac</p>
       </div>
+      <a href="./downloadFiles/Hunter_Treadaway_Software_Engineering_Resume.pdf" download>Download My Resume</a>
       {/* <img src={require("../img/SoftCuddly.png")} alt="soft and cuddly game map" /> */}
-      <h2>yuyuy</h2>
-    </div>
+      <p className="character-container">yuyuy</p>
+    </main>
   )
 }
 

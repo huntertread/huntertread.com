@@ -17,7 +17,7 @@ h1 {
   font-weight: normal;
 }
 
-h2 {
+.character-container {
   font-family: MONO;
   font-size: 100px;
   font-weight: normal;

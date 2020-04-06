@@ -3,10 +3,10 @@ import './homepage.css'
 
 const Homepage = () => {
   return (
-    <div id="home-section" className="homepage">
+    <main role="main" id="home-section" className="homepage">
       <h1>HUNTER<br/>TREADAWAY</h1>
-      <h2>q h</h2>
-    </div>
+      <p className="character-container">q h</p>
+    </main>
   )
 }
 
