@@ -35,6 +35,7 @@ h1 {
   
   .homepage {
     min-height: 150vh;
+    width: 100vw;
   }
 
   .about {
