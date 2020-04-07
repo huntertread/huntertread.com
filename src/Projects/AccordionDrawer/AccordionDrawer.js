@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 import './accordiondrawer.css'
 
 let counter = 0;
@@ -8,7 +9,7 @@ const AccordionDrawer = ({title, content, link, cta}) => {
   const [isOpen, setIsOpen] = useState(false)
   const [iconState, setIconState] = useState('closed')
 
-  let accContent = null;
+  let accContent = false;
 
   const onClickOpen = () => {
     if (counter % 2 === 0) {
@@ -22,7 +23,9 @@ const AccordionDrawer = ({title, content, link, cta}) => {
     }
   }
 
-  if (isOpen === true) {
+  if (isOpen === false) {
+    accContent = null;
+  } else if (isOpen === true) {
     accContent =
       <div className="accordion-content">
         <p>{content}</p>
@@ -36,7 +39,17 @@ const AccordionDrawer = ({title, content, link, cta}) => {
       <p>{title}</p>
       <i id={iconState} className="fa fa-plus" onClick={onClickOpen}></i>
     </div>
-      <div>{accContent}</div>
+      <div>
+        <ReactCSSTransitionGroup
+          className="carousel-inner"
+          transitionName="carouselShift"
+          transitionAppear={true}
+          transitionAppearTimeout={500}
+          transitionEnterTimeout={50}
+          transitionLeaveTimeout={50}>
+        {accContent}
+        </ReactCSSTransitionGroup>
+      </div>
     </div>
 
   )

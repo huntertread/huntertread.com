@@ -47,3 +47,30 @@
 #open {
   transform: rotate(45deg);
 }
+
+.carouselShift-appear {
+  opacity: 0.01;
+}
+
+.carouselShift-appear.carouselShift-appear-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.carouselShift-enter {
+  opacity: 0.01;
+}
+
+.carouselShift-enter.carouselShift-enter-active {
+  opacity: 1;
+  transition: opacity 50ms ease-in;
+}
+
+.carouselShift-leave {
+  opacity: 1;
+}
+
+.carouselShift-leave.carouselShift-leave-active {
+  opacity: 0.01;
+  transition: opactiy 50ms ease-in;
+}
