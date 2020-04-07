@@ -17,3 +17,10 @@
   cursor: pointer;
   color: white;
 }
+
+@media (max-width: 520px) {
+  .footer {
+    margin-bottom: 100px;
+    width: 100vw;
+  }
+}

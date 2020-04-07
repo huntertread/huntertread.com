@@ -1,3 +1,21 @@
+.close-button-container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.nav-button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 80vh;
+  margin-bottom: 20px;
+}
+
+.fa-close {
+  margin: 10px;
+  font-size: 25px;
+}
+
 .open-burger-home {
   background-color: #00ff03;
   width: 100vw;
@@ -5,7 +23,7 @@
   position: fixed;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
 }
 
 .open-burger-home a {

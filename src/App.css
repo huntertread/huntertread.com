@@ -23,18 +23,22 @@ h1 {
 }
 
 @media (max-width: 420px) {
+  h1 {
+    margin: 10px 0px;
+  }
+
   p {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   h3 {
-    font-size: 25px;
+    font-size: 18px;
   }
 
   .character-container {
     font-family: MONO;
     font-size: 70px;
     font-weight: normal;
-    margin: 10px;
+    margin: 10px 0px;
   }
 }

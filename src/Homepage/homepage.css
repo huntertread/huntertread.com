@@ -8,7 +8,7 @@
 
 @media (max-width: 520px) {
   .homepage {
-    min-height: 100vh;
+    min-height: 90vh;
     width: 100vw;
   }
 }

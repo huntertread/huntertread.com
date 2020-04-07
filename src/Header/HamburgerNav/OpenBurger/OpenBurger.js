@@ -22,11 +22,15 @@ const OpenBurger = ({ isOpen, setIsOpen, view, setView }) => {
 
   return (
     <nav className={viewClass}>
-      <i className="fa fa-close" onClick={() => setIsOpen(!isOpen)}></i>
-      <a href="#home-section" alt="go to home" onClick={() => burgerClick('home')}>Home</a>
-      <a href="#about-section" alt="go to about" onClick={() => burgerClick('about')}>About</a>
-      <a href="#project-section" alt="go to projects" onClick={() => burgerClick('projects')}>Projects</a>
-      <a href="#contact-section" alt="go to contact" onClick={() => burgerClick('contact')}>Contact</a>
+      <div className="close-button-container">
+        <i className="fa fa-close" onClick={() => setIsOpen(!isOpen)}></i>
+      </div>
+      < div className="nav-button-container">
+        <a href="#home-section" alt="go to home" onClick={() => burgerClick('home')}>Home</a>
+        <a href="#about-section" alt="go to about" onClick={() => burgerClick('about')}>About</a>
+        <a href="#project-section" alt="go to projects" onClick={() => burgerClick('projects')}>Projects</a>
+        <a href="#contact-section" alt="go to contact" onClick={() => burgerClick('contact')}>Contact</a>
+      </div>
     </nav>
   )
 }

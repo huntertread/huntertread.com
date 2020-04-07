@@ -22,7 +22,11 @@
 
 @media (max-width: 520px) {
   .about {
-    min-height: 100vh;
+    min-height: 95vh;
     width: 100vw;
+  }
+
+  .about-headline {
+    margin: 10px;
   }
 }

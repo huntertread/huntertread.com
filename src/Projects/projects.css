@@ -8,10 +8,10 @@
 
 @media (max-width: 520px) {
   .projects {
-    min-height: 100vh;
+    min-height: 90vh;
     width: 100vw;
   }
   .projects-content {
-    margin: 25px;
+    margin: 0px 25px;
   }
 }
