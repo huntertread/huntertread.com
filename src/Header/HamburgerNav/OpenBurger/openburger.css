@@ -23,6 +23,7 @@
   position: fixed;
   display: flex;
   flex-direction: column;
+  z-index: 5;
 }
 
 .open-burger-home a {
@@ -38,6 +39,7 @@
   position: fixed;
   display: flex;
   flex-direction: column;
+  z-index: 5;
 }
 
 .open-burger-about a {
@@ -53,6 +55,7 @@
   position: fixed;
   display: flex;
   flex-direction: column;
+  z-index: 5;
 }
 
 .open-burger-projects a {
@@ -68,6 +71,7 @@
   position: fixed;
   display: flex;
   flex-direction: column;
+  z-index: 5;
 }
 
 .open-burger-contact a {
