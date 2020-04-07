@@ -7,6 +7,11 @@
   border-bottom: 1px solid #fdff00;
 }
 
+.accordion-content-container {
+  height: 0px;
+  transition: height .5s;
+}
+
 .accordion-content {
   display: flex;
   flex-direction: column;
@@ -16,6 +21,13 @@
   max-width: 500px;
   border-bottom: 1px solid #fdff00;
   position: relative;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 500ms ease;
+}
+
+.accordion-content.open {
+  max-height: 400px;
 }
 
 .project-cta {
@@ -46,31 +58,4 @@
 
 #open {
   transform: rotate(45deg);
-}
-
-.carouselShift-appear {
-  opacity: 0.01;
-}
-
-.carouselShift-appear.carouselShift-appear-active {
-  opacity: 1;
-  transition: opacity 500ms ease-in;
-}
-
-.carouselShift-enter {
-  opacity: 0.01;
-}
-
-.carouselShift-enter.carouselShift-enter-active {
-  opacity: 1;
-  transition: opacity 50ms ease-in;
-}
-
-.carouselShift-leave {
-  opacity: 1;
-}
-
-.carouselShift-leave.carouselShift-leave-active {
-  opacity: 0.01;
-  transition: opactiy 50ms ease-in;
 }

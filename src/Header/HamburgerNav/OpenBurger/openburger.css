@@ -23,7 +23,6 @@
   position: fixed;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-evenly; */
 }
 
 .open-burger-home a {
@@ -39,7 +38,6 @@
   position: fixed;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
 }
 
 .open-burger-about a {
@@ -55,7 +53,6 @@
   position: fixed;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
 }
 
 .open-burger-projects a {
@@ -71,7 +68,6 @@
   position: fixed;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
 }
 
 .open-burger-contact a {

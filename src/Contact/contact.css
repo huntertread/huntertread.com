@@ -3,12 +3,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 90vh;
+  height: 90vh;
 }
 
 @media (max-width: 520px) {
   .contact {
-    min-height: 90vh;
+    height: 70vh;
     width: 100vw;
   }
 }
