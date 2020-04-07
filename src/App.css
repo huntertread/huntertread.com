@@ -1,5 +1,6 @@
 @font-face {font-family: HolyDiver; src: url('./customFonts/holy-diver/holy-diver-nes.ttf');}
 @font-face {font-family: MONO; src: url('./customFonts/mononokekeh/mononokekeh.ttf');}
+@font-face {font-family: xevious; src: url('./customFonts/xevious/xevious.ttf');}
 
 .App {
   display: flex;
@@ -10,8 +11,8 @@
 }
 
 h1 {
-  font-size: calc(80px + (100 - 80) * ((100vw - 300px) / (1600 - 300))); /* dynamic resize with window */
-  font-family: HolyDiver;
+  font-size: calc(40px + (50 - 40) * ((100vw - 300px) / (1600 - 300))); /* dynamic resize with window */
+  font-family: xevious;
   font-weight: normal;
 }
 
