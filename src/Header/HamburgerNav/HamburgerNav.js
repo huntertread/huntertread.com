@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import OpenBurger from './OpenBurger/OpenBurger'
+import { TransitionGroup, CSSTransition } from 'react-transition-group'
 import './hamburgernav.css'
 
 const HamburgerNav = ({ view, setView }) => {
@@ -18,17 +19,32 @@ const HamburgerNav = ({ view, setView }) => {
     viewClass = 'header-contact-mobile'
   }
 
+  let burger;
+
   if (isOpen === false) {
-    return (
+    burger = null;
+  } else if (isOpen === true) {
+    burger =
+      <CSSTransition
+        key="1"
+        classNames="nav-transition"
+        timeout={{ enter: 500, exit: 300 }}>
+          <div className="burger-container">
+            <OpenBurger isOpen={isOpen} setIsOpen={setIsOpen} setView={setView} view={view}/>;
+          </div>
+      </CSSTransition>
+  }
+
+  return (
+    <div>
       <nav role="banner navigation" aria-label="Main Navigation" className={viewClass}>
         <i onClick={() => setIsOpen(!isOpen)} className="fa fa-bars"></i>
       </nav>
-    )
-  } else if (isOpen === true) {
-    return (
-      <OpenBurger isOpen={isOpen} setIsOpen={setIsOpen} setView={setView} view={view}/>
-    )
-  }
+      <TransitionGroup>
+        {burger}
+      </TransitionGroup>
+    </div>
+  )
 }
 
 export default HamburgerNav

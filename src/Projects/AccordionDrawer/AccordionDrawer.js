@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './accordiondrawer.css'
 
-let counter = 0;
+let counter = 0; // global variable, how to make this counter work per component??
 
 const AccordionDrawer = ({title, content, link, cta}) => {
 

@@ -52,5 +52,26 @@
   color: #01fffe;
   margin: 10px;
   font-size: 20px;
+}
 
+.burger-container {
+  max-height: 0px;
+}
+
+.nav-transition-enter {
+  opacity: 0.01;
+}
+
+.nav-transition-enter.nav-transition-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease;
+}
+
+.nav-transition-exit {
+  opacity: 1;
+}
+
+.nav-transition-exit.nav-transition-exit-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease;
 }
