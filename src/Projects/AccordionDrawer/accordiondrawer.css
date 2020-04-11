@@ -15,8 +15,7 @@
 .accordion-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-content: center;
+  justify-content: flex-start;
   margin: auto;
   max-width: 500px;
   border-bottom: 1px solid #fdff00;
@@ -27,7 +26,7 @@
 }
 
 .accordion-content.open {
-  max-height: 400px;
+  max-height: 500px;
 }
 
 .project-cta {
