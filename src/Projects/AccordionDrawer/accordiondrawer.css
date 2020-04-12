@@ -7,11 +7,6 @@
   border-bottom: 1px solid #fdff00;
 }
 
-.accordion-content-container {
-  height: 0px;
-  transition: height .5s;
-}
-
 .accordion-content {
   display: flex;
   flex-direction: column;
@@ -25,8 +20,14 @@
   transition: max-height 500ms ease;
 }
 
+.accordion-list {
+  /* display: flex;
+  flex-direction: column; */
+  align-content: left;
+}
+
 .accordion-content.open {
-  max-height: 500px;
+  max-height: 700px;
 }
 
 .project-cta {

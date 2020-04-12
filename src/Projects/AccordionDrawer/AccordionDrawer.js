@@ -28,6 +28,45 @@ const AccordionDrawer = ({title, content, link, cta}) => {
     accOpen = "open"
   }
 
+  let projectList;
+
+  if (content.length === 1) {
+    projectList = 
+      <ul className="accordion-list">
+        <li>{content[0]}</li>
+      </ul>
+  } else if (content.length === 2) {
+    projectList = 
+      <ul className="accordion-list">
+        <li>{content[0]}</li>
+        <li>{content[1]}</li>
+      </ul>
+  } else if (content.length === 3) {
+    projectList = 
+      <ul className="accordion-list">
+        <li>{content[0]}</li>
+        <li>{content[1]}</li>
+        <li>{content[2]}</li>
+      </ul>
+  } else if (content.length === 4) {
+    projectList = 
+      <ul className="accordion-list">
+        <li>{content[0]}</li>
+        <li>{content[1]}</li>
+        <li>{content[2]}</li>
+        <li>{content[3]}</li>
+      </ul>
+  } else if (content.length === 5) {
+    projectList = 
+      <ul className="accordion-list">
+        <li>{content[0]}</li>
+        <li>{content[1]}</li>
+        <li>{content[2]}</li>
+        <li>{content[3]}</li>
+        <li>{content[4]}</li>
+      </ul>
+  }
+
   return (
     <div>
       <div className="accordion-header">
@@ -35,7 +74,7 @@ const AccordionDrawer = ({title, content, link, cta}) => {
         <i id={iconState} className="fa fa-plus" onClick={onClickOpen}></i>
       </div>
       <div className={`accordion-content ${accOpen}`}>
-        <p>{content}</p>
+        {projectList}
         <a className="project-cta" href={link} target="blank" alt={`go to ${title} source code or live example`}>{cta}</a>
       </div>
     </div>

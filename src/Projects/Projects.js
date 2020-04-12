@@ -4,32 +4,25 @@ import './projects.css'
 
 const Projects = () => {
 
-  const htContent = 'this website right here!'
+  const htContent = ['this website right here!']
   const htLink = ''
   const htCta = 'View source-code on GitHub'
 
-  const threeContent = 'a fancy three.js project'
+  const threeContent = ['a fancy three.js project']
   const threeLink = ''
   const threeCta = 'Go To Project'
 
-  const ecommContent = 'a sampling of e-commerce components in the neumorphic design style'
+  const ecommContent = ['a sampling of e-commerce components in the neumorphic design style']
   const ecommLink = 'https://github.com/huntertread/e-comm-components'
   const ecommCta = 'Go To Project'
 
-  const sysDisContent = (
-    <ul>
-      <li>Optimized the back end of an inherited microservice component.</li>
-      <li>Generated and seeded 20 Million simulated property records to MongoDB hosted on t2.micro.</li>
-      <li>Horizontally scaled proxy server layer to 3 separate t2.micro instances.</li>
-      <li>Utilized NGINX and round-robin technique to load balance throughput of test loads from Loader.io.</li>
-      <li>Achieved an average of 3000 RPS (up from benchmark of ~100 RPS) with 80ms latency (down from benchmark of ~1000ms) and less than 1% error rate.</li>
-    </ul>
-  )
-    // 'Optimized the back end of an inherited microservice component. '
-    // + 'Generated and seeded 20 Million simulated property records to MongoDB hosted on t2.micro. '
-    // + 'Horizontally scaled proxy server layer to 3 separate t2.micro instances. '
-    // + 'Utilized NGINX and round-robin technique to load balance throughput of test loads from Loader.io. '
-    // + 'Achieved an average of 3000 RPS (up from benchmark of ~100 RPS) with 80ms latency (down from benchmark of ~1000ms) and less than 1% error rate. '
+  const sysDisContent = [
+    'Optimized the back end of an inherited microservice component.', 
+    'Generated and seeded 20 Million simulated property records to MongoDB hosted on t2.micro.',
+    'Horizontally scaled proxy server layer to 3 separate t2.micro instances.',
+    'Utilized NGINX and round-robin technique to load balance throughput of test loads from Loader.io.',
+    'Achieved an average of 3000 RPS (up from benchmark of ~100 RPS) with 80ms latency (down from benchmark of ~1000ms) and less than 1% error rate.'
+  ]
   const sysDisLink = 'https://github.com/SDC-Designer-Designers/search-bar-booking-tool'
   const sysDisCta = 'View source-code on GitHub'
 
