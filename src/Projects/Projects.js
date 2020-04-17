@@ -4,12 +4,21 @@ import './projects.css'
 
 const Projects = () => {
 
-  const htContent = ['this website right here!']
-  const htLink = ''
-  const htCta = 'View source-code on GitHub'
+  const htContent = [
+    'this website right here!',
+    'react.js',
+    'mobile first design',
+    'WCAG AA Compliant',
+    'unit tested'
+  ]
+  const htLink = 'https://github.com/huntertread/personal-site'
+  const htCta = 'View Code On GitHub'
 
-  const threeContent = ['a fancy three.js project']
-  const threeLink = ''
+  const threeContent = [
+    'three.js demo site',
+    'another point here'
+  ]
+  const threeLink = 'https://huntertread.github.io/threejsdemo/'
   const threeCta = 'Go To Project'
 
   const ecommContent = ['a sampling of e-commerce components in the neumorphic design style']
@@ -24,7 +33,7 @@ const Projects = () => {
     'Achieved an average of 3000 RPS (up from benchmark of ~100 RPS) with 80ms latency (down from benchmark of ~1000ms) and less than 1% error rate.'
   ]
   const sysDisLink = 'https://github.com/SDC-Designer-Designers/search-bar-booking-tool'
-  const sysDisCta = 'View source-code on GitHub'
+  const sysDisCta = 'View Code On GitHub'
 
   return (
     <main role="main" id="project-section" className="projects">
