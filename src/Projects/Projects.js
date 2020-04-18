@@ -15,8 +15,7 @@ const Projects = () => {
   const htCta = 'View Code On GitHub'
 
   const threeContent = [
-    'three.js demo site',
-    'another point here'
+    'three.js demo site'
   ]
   const threeLink = 'https://huntertread.github.io/threejsdemo/'
   const threeCta = 'Go To Project'
@@ -40,8 +39,8 @@ const Projects = () => {
       <h1>PROJECTS</h1>
       <div className="projects-content">
         <AccordionDrawer title={'huntertreadaway.com'} content={htContent} link={htLink} cta={htCta} />
-        <AccordionDrawer title={'unknown three.js projects'} content={threeContent} link={threeLink} cta={threeCta} />
-        <AccordionDrawer title={'e-comm components'} content={ecommContent} link={ecommLink} cta={ecommCta} />
+        <AccordionDrawer title={'three.js demo'} content={threeContent} link={threeLink} cta={threeCta} />
+        {/* <AccordionDrawer title={'e-comm components'} content={ecommContent} link={ecommLink} cta={ecommCta} /> */}
         <AccordionDrawer title={'system design capstone'} content={sysDisContent} link={sysDisLink} cta={sysDisCta} />
       </div>
       <p className="character-container">hunter</p>
