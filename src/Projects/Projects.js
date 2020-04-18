@@ -5,11 +5,10 @@ import './projects.css'
 const Projects = () => {
 
   const htContent = [
-    'this website right here!',
-    'react.js',
-    'mobile first design',
-    'WCAG AA Compliant',
-    'unit tested'
+    'React JS',
+    'Mobile first design',
+    'WCAG Compliant'
+    // 'unit tested'
   ]
   const htLink = 'https://github.com/huntertread/personal-site'
   const htCta = 'View Code On GitHub'
@@ -25,7 +24,7 @@ const Projects = () => {
   const ecommCta = 'Go To Project'
 
   const sysDisContent = [
-    'Optimized the back end of an inherited microservice component.', 
+    'Optimized the back end of an inherited microservice component.',
     'Generated and seeded 20 Million simulated property records to MongoDB hosted on t2.micro.',
     'Horizontally scaled proxy server layer to 3 separate t2.micro instances.',
     'Utilized NGINX and round-robin technique to load balance throughput of test loads from Loader.io.',
