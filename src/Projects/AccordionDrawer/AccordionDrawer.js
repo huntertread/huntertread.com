@@ -20,6 +20,20 @@ const AccordionDrawer = ({title, content, link, cta}) => {
     }
   }
 
+  const onKeyEnter = (event) => {
+    if (event.key === 'Enter') {
+      if (counter % 2 === 0) {
+        setIsOpen(!isOpen)
+        setIconState('open')
+        counter++
+      } else {
+        setIsOpen(!isOpen)
+        setIconState('closed')
+        counter++
+      }
+    }
+  }
+
   let accOpen = "";
 
   if (isOpen === false) {
@@ -71,7 +85,7 @@ const AccordionDrawer = ({title, content, link, cta}) => {
     <div>
       <div className="accordion-header">
         <p>{title}</p>
-        <i id={iconState} className="fa fa-plus" onClick={onClickOpen}></i>
+        <i id={iconState} className="fa fa-plus" onClick={onClickOpen} onKeyPress={onKeyEnter} tabIndex="0"></i>
       </div>
       <div className={`accordion-content ${accOpen}`}>
         {projectList}
