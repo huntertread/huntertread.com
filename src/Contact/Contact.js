@@ -8,7 +8,7 @@ const Contact = () => {
       <div className="contact-content">
         <p>email: huntertread at gmail</p>
       </div>
-      <p className="character-container">aaaa</p>
+      <p alt="a custom font is used which transforms alpha-numeric characters in to pixel monsters" className="character-container">aaaa</p>
     </main>
   )
 }

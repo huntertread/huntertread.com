@@ -7,7 +7,7 @@ const Projects = () => {
   const htContent = [
     'React JS',
     'Mobile first design',
-    'WCAG Compliant',
+    'WCAG Compliant', 
     'Unit tested with Jest'
   ]
   const htLink = 'https://github.com/huntertread/personal-site'
@@ -37,12 +37,12 @@ const Projects = () => {
     <main role="main" id="project-section" className="projects">
       <h1>PROJECTS</h1>
       <div className="projects-content">
-        <AccordionDrawer title={'huntertreadaway.com'} content={htContent} link={htLink} cta={htCta} />
-        <AccordionDrawer title={'three.js demo'} content={threeContent} link={threeLink} cta={threeCta} />
+        <AccordionDrawer alt="hunter treadaway personal site project details" title={'huntertreadaway.com'} content={htContent} link={htLink} cta={htCta} />
+        <AccordionDrawer alt="three.js demo project details" title={'three.js demo'} content={threeContent} link={threeLink} cta={threeCta} />
         {/* <AccordionDrawer title={'e-comm components'} content={ecommContent} link={ecommLink} cta={ecommCta} /> */}
-        <AccordionDrawer title={'system design capstone'} content={sysDisContent} link={sysDisLink} cta={sysDisCta} />
+        <AccordionDrawer alt="system design capstone project details" title={'system design capstone'} content={sysDisContent} link={sysDisLink} cta={sysDisCta} />
       </div>
-      <p className="character-container">hunter</p>
+      <p className="character-container" alt="a custom font is used which transforms alpha-numeric characters in to pixel monsters">hunter</p>
     </main>
   )
 }

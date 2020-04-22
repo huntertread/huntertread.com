@@ -37,7 +37,7 @@ const HamburgerNav = ({ view, setView }) => {
 
   return (
     <div>
-      <nav role="banner navigation" aria-label="Main Navigation" className={viewClass}>
+      <nav role="banner navigation" aria-label="main navigation" className={viewClass}>
         <i onClick={() => setIsOpen(!isOpen)} className="fa fa-bars"></i>
       </nav>
       <TransitionGroup>

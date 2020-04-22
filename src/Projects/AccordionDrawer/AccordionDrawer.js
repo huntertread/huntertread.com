@@ -85,7 +85,7 @@ const AccordionDrawer = ({title, content, link, cta}) => {
     <div>
       <div className="accordion-header">
         <p>{title}</p>
-        <i id={iconState} className="fa fa-plus" onClick={onClickOpen} onKeyPress={onKeyEnter} tabIndex="0"></i>
+        <i role="img" alt="icon, click or press to expand with additional content" id={iconState} className="fa fa-plus" onClick={onClickOpen} onKeyPress={onKeyEnter} tabIndex="0"></i>
       </div>
       <div className={`accordion-content ${accOpen}`}>
         {projectList}
