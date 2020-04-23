@@ -7,7 +7,7 @@ const Projects = () => {
   const htContent = [
     'React JS',
     'Mobile first design',
-    'WCAG Compliant', 
+    'WCAG Compliant',
     'Unit tested with Jest'
   ]
   const htLink = 'https://github.com/huntertread/personal-site'
