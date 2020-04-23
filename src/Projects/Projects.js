@@ -14,7 +14,8 @@ const Projects = () => {
         'React JS',
         'Mobile first design',
         'WCAG Compliant',
-        'Unit tested with Jest'
+        'Unit tested with Jest',
+        'Google Analytics'
       ]
     },
     {
