@@ -6,7 +6,7 @@ const Projects = () => {
 
   const projectDetails = [
     {
-      title: 'huntertreadaway.com',
+      title: 'huntertread.com',
       link: 'https://github.com/huntertread/personal-site',
       cta: 'View Code On GitHub',
       alt: 'hunter treadaway personal site project details',
