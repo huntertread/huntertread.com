@@ -24,6 +24,7 @@ const Projects = () => {
       cta: 'Go To Project',
       alt: 'three.js demo project details',
       content: [
+        'UNDER CONSTRUCTION',
         'three.js demo site'
       ]
     },
