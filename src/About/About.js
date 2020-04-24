@@ -6,8 +6,8 @@ const About = () => {
     <main role="main" id="about-section" className="about">
       <h1>ABOUT</h1>
       <div className="about-content">
-        <h3 className="about-headline">Hunter is a web developer in Los Angeles, CA. He enjoys building unique interactive interfaces with test-driven, performant, and modular code.</h3>
-        <p>JavaScript | HTML5 | CSS3 | Bash | PHP</p>
+        <h3 className="about-headline">Hunter is a Web Developer in Los Angeles, CA. He enjoys building responsive and modern UIs with test-driven, performant, and modular code.</h3>
+        <p>JavaScript | HTML5 | CSS3 | PHP | Bash</p>
         <p>React | React-Native | ViroReact | Styled-Components | D3 | jQuery | Node.js</p>
         <p>Jest | Mocha | Chai</p>
         <p>MySQL | PostgreSQL | MongoDB</p>
