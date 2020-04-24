@@ -19,17 +19,7 @@ const Projects = () => {
       ]
     },
     {
-      title: 'three.js demo',
-      link: 'https://huntertread.github.io/threejsdemo/',
-      cta: 'Go To Project',
-      alt: 'three.js demo project details',
-      content: [
-        'UNDER CONSTRUCTION',
-        'three.js demo site'
-      ]
-    },
-    {
-      title: 'system design capstone',
+      title: 'microservice optimization',
       link: 'https://github.com/SDC-Designer-Designers/search-bar-booking-tool',
       cta: 'View Code on GitHub',
       alt: 'system design capstone project details',
@@ -39,6 +29,16 @@ const Projects = () => {
         'Horizontally scaled proxy server layer to 3 separate t2.micro instances.',
         'Utilized NGINX and round-robin technique to load balance throughput of test loads from Loader.io.',
         'Achieved an average of 3000 RPS (up from benchmark of ~100 RPS) with 80ms latency (down from benchmark of ~1000ms) and less than 1% error rate.'
+      ]
+    },
+    {
+      title: 'three.js demo',
+      link: 'https://huntertread.github.io/threejsdemo/',
+      cta: 'Go To Project',
+      alt: 'three.js demo project details',
+      content: [
+        'UNDER CONSTRUCTION',
+        'three.js demo site'
       ]
     }
   ]
