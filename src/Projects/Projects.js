@@ -11,11 +11,24 @@ const Projects = () => {
       cta: 'View Code On GitHub',
       alt: 'hunter treadaway personal site project details',
       content: [
-        'React JS',
-        'Mobile first design',
+        'React Hooks',
+        'Responsive design',
         'WCAG Compliant',
         'Unit tested with Jest',
         'Google Analytics'
+      ]
+    },
+    {
+      title: 'theoog.net, URL Shortener',
+      link: 'https://theoog.net',
+      cta: 'Go To Project',
+      alt: 'the oog url shortener project details',
+      content: [
+        'React | Node | PostgreSQL',
+        'Back end on AWS EC2 and reverse proxied with NGINX',
+        'Architected to easily scale horizontally',
+        'RESTful API on theoog.net subdomain',
+        'Responsive front end design'
       ]
     },
     {
@@ -24,10 +37,10 @@ const Projects = () => {
       cta: 'View Code on GitHub',
       alt: 'system design capstone project details',
       content: [
-        'Optimized the back end of an inherited microservice component.',
-        'Generated and seeded 20 Million simulated property records to MongoDB hosted on t2.micro.',
-        'Horizontally scaled proxy server layer to 3 separate t2.micro instances.',
-        'Utilized NGINX and round-robin technique to load balance throughput of test loads from Loader.io.',
+        'Optimized the back end of an inherited microservice.',
+        'Generated and seeded 20 Million records to MongoDB hosted on t2.micro to test against.',
+        'Horizontally scaled proxy server layer to 3 t2.micro instances.',
+        'Utilized NGINX to load balance throughput of test loads from Loader.io.',
         'Achieved an average of 3000 RPS (up from benchmark of ~100 RPS) with 80ms latency (down from benchmark of ~1000ms) and less than 1% error rate.'
       ]
     },

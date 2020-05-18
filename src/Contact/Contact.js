@@ -6,7 +6,7 @@ const Contact = () => {
     <main role="main" id="contact-section" className="contact">
       <h1>CONTACT</h1>
       <div className="contact-content">
-        <p>email: huntertread at gmail</p>
+        <p>email: huntertread@gmail.com</p>
       </div>
       <p alt="a custom font is used which transforms alpha-numeric characters in to pixel monsters" className="character-container">aaaa</p>
     </main>
