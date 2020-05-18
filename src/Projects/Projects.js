@@ -54,19 +54,6 @@ const Projects = () => {
         'three.js demo site'
       ]
     }
-    // {
-    //   title: 'oog.la url shortener',
-    //   link: 'https://www.oog.la',
-    //   cta: 'Go To Project',
-    //   alt: 'oogla url shortener project details',
-    //   content: [
-    //     'ReactJS',
-    //     'PostgreSQL',
-    //     'Amazon EC2',
-    //     '',
-    //     ''
-    //   ]
-    // }
   ]
 
   return (
