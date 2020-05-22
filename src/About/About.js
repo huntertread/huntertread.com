@@ -8,7 +8,7 @@ const About = () => {
       <div className="about-content">
         <h3 className="about-headline">Hunter is a Web Developer in Los Angeles, CA. He enjoys building responsive UIs with performant, modular code.</h3>
         <p>JavaScript | HTML5 | CSS3</p>
-        <p>React | Node | React-Native | ViroReact | Styled-Components | Redux | D3 | jQuery</p>
+        <p>React | Redux | Node | React-Native | ViroReact | Styled-Components</p>
         <p>Jest | Mocha | Chai</p>
         <p>MySQL | PostgreSQL | MongoDB</p>
         <p>AWS EC2 | S3 | Route53</p>

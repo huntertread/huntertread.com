@@ -24,11 +24,10 @@ const Projects = () => {
       cta: 'Go To Project',
       alt: 'the oog url shortener project details',
       content: [
-        'React | Node | PostgreSQL',
-        'Back end on AWS EC2 and reverse proxied with NGINX',
-        'Architected to easily scale horizontally',
-        'RESTful API on theoog.net subdomain',
-        'Responsive front end design'
+        'React | Node | PostgreSQL | Express',
+        'Web server, database, reverse proxy and Node server on distributed EC2 instances',
+        'API on theoog.net subdomain',
+        'Responsive front end'
       ]
     },
     {
