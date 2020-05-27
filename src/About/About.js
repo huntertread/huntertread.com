@@ -10,7 +10,7 @@ const About = () => {
         <p>JavaScript | HTML5 | CSS3</p>
         <p>React | Redux | Node | React-Native | ViroReact | Styled-Components</p>
         <p>Git | NPM | NVM | Webpack | Babel | NGINX</p>
-        <p>Jest | Mocha | Chai</p>
+        <p>Jest | Enzyme | Mocha | Chai</p>
         <p>MySQL | PostgreSQL | MongoDB</p>
         <p>AWS EC2 | S3 | Route53</p>
       </div>

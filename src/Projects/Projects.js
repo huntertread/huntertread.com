@@ -27,6 +27,7 @@ const Projects = () => {
         'React | Node | PostgreSQL | Express',
         'Web server, database, reverse proxy and Node server on distributed EC2 instances',
         'API on theoog.net subdomain',
+        'Unit tested with Jest & Enzyme',
         'Responsive front end'
       ]
     },
