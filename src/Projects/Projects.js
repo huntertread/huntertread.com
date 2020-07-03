@@ -14,7 +14,7 @@ const Projects = () => {
         'React Hooks',
         'Responsive design',
         'WCAG Compliant',
-        'Unit tested with Jest',
+        'Unit tested with Jest/Enzyme',
         'Google Analytics'
       ]
     },
@@ -24,10 +24,10 @@ const Projects = () => {
       cta: 'Go To Project',
       alt: 'the oog url shortener project details',
       content: [
-        'React | Node | PostgreSQL | Express',
+        'React | Redux | Node | Express | PostgreSQL',
         'Web server, database, reverse proxy and Node server on distributed EC2 instances',
-        'API on theoog.net subdomain',
-        'Unit tested with Jest & Enzyme',
+        'Restful API on theoog.net subdomain',
+        'Unit tested with Jest/Enzyme',
         'Responsive front end'
       ]
     },
@@ -38,22 +38,22 @@ const Projects = () => {
       alt: 'system design capstone project details',
       content: [
         'Optimized the back end of an inherited microservice.',
-        'Generated and seeded 20 Million records to MongoDB hosted on t2.micro to test against.',
+        'Generated and seeded 20 Million records to MongoDB to simulate enterprise level data set.',
         'Horizontally scaled proxy server layer to 3 t2.micro instances.',
         'Utilized NGINX to load balance throughput of test loads from Loader.io.',
         'Achieved an average of 3000 RPS (up from benchmark of ~100 RPS) with 80ms latency (down from benchmark of ~1000ms) and less than 1% error rate.'
       ]
-    },
-    {
-      title: 'three.js demo',
-      link: 'https://huntertread.github.io/threejsdemo/',
-      cta: 'Go To Project',
-      alt: 'three.js demo project details',
-      content: [
-        'UNDER CONSTRUCTION',
-        'three.js demo site'
-      ]
     }
+    // {
+    //   title: 'three.js demo',
+    //   link: 'https://huntertread.github.io/threejsdemo/',
+    //   cta: 'Go To Project',
+    //   alt: 'three.js demo project details',
+    //   content: [
+    //     'UNDER CONSTRUCTION',
+    //     'three.js demo site'
+    //   ]
+    // }
   ]
 
   return (
