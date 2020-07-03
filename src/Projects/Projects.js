@@ -11,11 +11,24 @@ const Projects = () => {
       cta: 'View Code On GitHub',
       alt: 'hunter treadaway personal site project details',
       content: [
-        'ReactJS',
-        'Mobile friendly',
+        'React Hooks',
+        'Responsive design',
         'WCAG Compliant',
         'Unit tested with Jest',
         'Google Analytics'
+      ]
+    },
+    {
+      title: 'theoog.net, URL Shortener',
+      link: 'https://theoog.net',
+      cta: 'Go To Project',
+      alt: 'the oog url shortener project details',
+      content: [
+        'React | Node | PostgreSQL | Express',
+        'Web server, database, reverse proxy and Node server on distributed EC2 instances',
+        'API on theoog.net subdomain',
+        'Unit tested with Jest & Enzyme',
+        'Responsive front end'
       ]
     },
     {
@@ -24,9 +37,9 @@ const Projects = () => {
       cta: 'View Code on GitHub',
       alt: 'system design capstone project details',
       content: [
-        'Optimized the back end of an inherited microservice component.',
-        'Generated and seeded 20 Million records to MongoDB hosted on t2.micro to simulate enterprise level data set for testing.',
-        'Horizontally scaled proxy server layer to 3 separate t2.micro instances.',
+        'Optimized the back end of an inherited microservice.',
+        'Generated and seeded 20 Million records to MongoDB hosted on t2.micro to test against.',
+        'Horizontally scaled proxy server layer to 3 t2.micro instances.',
         'Utilized NGINX to load balance throughput of test loads from Loader.io.',
         'Achieved an average of 3000 RPS (up from benchmark of ~100 RPS) with 80ms latency (down from benchmark of ~1000ms) and less than 1% error rate.'
       ]
@@ -41,19 +54,6 @@ const Projects = () => {
         'three.js demo site'
       ]
     }
-    // {
-    //   title: 'oog.la url shortener',
-    //   link: 'https://www.oog.la',
-    //   cta: 'Go To Project',
-    //   alt: 'oogla url shortener project details',
-    //   content: [
-    //     'ReactJS',
-    //     'PostgreSQL',
-    //     'Amazon EC2',
-    //     '',
-    //     ''
-    //   ]
-    // }
   ]
 
   return (

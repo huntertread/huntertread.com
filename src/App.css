@@ -10,7 +10,7 @@
 }
 
 h1 {
-  font-size: calc(40px + (50 - 40) * ((100vw - 300px) / (1600 - 300))); /* dynamic resize with window */
+  font-size: calc(40px + (50 - 40) * ((100vw - 300px) / (1600 - 300)));
   font-family: xevious;
   font-weight: normal;
 }
