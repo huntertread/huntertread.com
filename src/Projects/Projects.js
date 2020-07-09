@@ -6,19 +6,6 @@ const Projects = () => {
 
   const projectDetails = [
     {
-      title: 'huntertread.com',
-      link: 'https://github.com/huntertread/personal-site',
-      cta: 'View Code On GitHub',
-      alt: 'hunter treadaway personal site project details',
-      content: [
-        'React Hooks',
-        'Responsive design',
-        'WCAG Compliant',
-        'Unit tested with Jest/Enzyme',
-        'Google Analytics'
-      ]
-    },
-    {
       title: 'theoog.net, URL Shortener',
       link: 'https://theoog.net',
       cta: 'Go To Project',
@@ -27,7 +14,7 @@ const Projects = () => {
         'React | Redux | Node | Express | PostgreSQL',
         'Web server, database, reverse proxy and Node server on distributed EC2 instances',
         'Restful API on theoog.net subdomain',
-        'Unit tested with Jest/Enzyme',
+        'Test suites in Jest/Enzyme and Mocha/Chai',
         'Responsive front end'
       ]
     },
@@ -42,6 +29,19 @@ const Projects = () => {
         'Horizontally scaled proxy server layer to 3 t2.micro instances.',
         'Utilized NGINX to load balance throughput of test loads from Loader.io.',
         'Achieved an average of 3000 RPS (up from benchmark of ~100 RPS) with 80ms latency (down from benchmark of ~1000ms) and less than 1% error rate.'
+      ]
+    },
+    {
+      title: 'huntertread.com',
+      link: 'https://github.com/huntertread/personal-site',
+      cta: 'View Code On GitHub',
+      alt: 'hunter treadaway personal site project details',
+      content: [
+        'React Hooks',
+        'Responsive design',
+        'WCAG Compliant',
+        'Unit tested with Jest/Enzyme',
+        'Google Analytics'
       ]
     }
     // {
