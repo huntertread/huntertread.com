@@ -10,7 +10,7 @@ const Header = () => {
   if (view === 'home') {
     return (
       <div>
-        <MediaQuery className="testinngg" minDeviceWidth={520}>
+        <MediaQuery minDeviceWidth={520}>
           <nav role="banner navigation" aria-label="Main Navigation" className="header-home">
             <a tabIndex="1" href="#home-section" alt="navigate to home" className="selected" onClick={() => setView('home')}>Home</a>
             <a tabIndex="2" href="#about-section" alt="navigate to about" onClick={() => setView('about')}>About</a>
