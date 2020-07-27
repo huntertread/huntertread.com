@@ -43,6 +43,17 @@ const Projects = () => {
         'Unit tested with Jest/Enzyme',
         'Google Analytics'
       ]
+    },
+    {
+      title: 'MRZ Medical',
+      link: 'mrzmedical.com',
+      cta: 'MRZ Medical',
+      alt: 'MRZ Medical Wordpress Site',
+      content: [
+        'Updated site for COVID-19 impacts',
+        'Added Forms page',
+        'Refactored site to be mobile friendly with custom Media Queries'
+      ]
     }
     // {
     //   title: 'three.js demo',
