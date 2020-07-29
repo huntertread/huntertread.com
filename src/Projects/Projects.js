@@ -19,6 +19,19 @@ const Projects = () => {
       ]
     },
     {
+      title: 'mrzedical.com',
+      link: 'mrzmedical.com',
+      cta: 'Go to MRZ Medical',
+      alt: 'MRZ Medical Wordpress Site',
+      content: [
+        'Updated existing Wordpress theme with Covid-19 components',
+        'Added Patient Education and Forms pages',
+        'Refactored site to be mobile friendly with custom Media Queries',
+        'Fixed broken contact form and "Patient Portal" CTA on homepage',
+        'Figured it all out on the fly'
+      ]
+    },
+    {
       title: 'microservice optimization',
       link: 'https://github.com/SDC-Designer-Designers/search-bar-booking-tool',
       cta: 'View Code on GitHub',
@@ -42,17 +55,6 @@ const Projects = () => {
         'WCAG Compliant',
         'Unit tested with Jest/Enzyme',
         'Google Analytics'
-      ]
-    },
-    {
-      title: 'MRZ Medical',
-      link: 'mrzmedical.com',
-      cta: 'MRZ Medical',
-      alt: 'MRZ Medical Wordpress Site',
-      content: [
-        'Updated site for COVID-19 impacts',
-        'Added Forms page',
-        'Refactored site to be mobile friendly with custom Media Queries'
       ]
     }
     // {
