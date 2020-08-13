@@ -6,7 +6,7 @@ const Projects = () => {
 
   const projectDetails = [
     {
-      title: 'theoog.net, URL Shortener',
+      title: 'theoog.net',
       link: 'https://theoog.net',
       cta: 'Go To Project',
       alt: 'the oog url shortener project details',
@@ -32,19 +32,6 @@ const Projects = () => {
       ]
     },
     {
-      title: 'microservice optimization',
-      link: 'https://github.com/SDC-Designer-Designers/search-bar-booking-tool',
-      cta: 'View Code on GitHub',
-      alt: 'system design capstone project details',
-      content: [
-        'Optimized the back end of an inherited microservice.',
-        'Generated and seeded 20 Million records to MongoDB to simulate enterprise level data set.',
-        'Horizontally scaled proxy server layer to 3 t2.micro instances.',
-        'Utilized NGINX to load balance throughput of test loads from Loader.io.',
-        'Achieved an average of 3000 RPS (up from benchmark of ~100 RPS) with 80ms latency (down from benchmark of ~1000ms) and less than 1% error rate.'
-      ]
-    },
-    {
       title: 'huntertread.com',
       link: 'https://github.com/huntertread/personal-site',
       cta: 'View Code On GitHub',
@@ -55,6 +42,19 @@ const Projects = () => {
         'WCAG Compliant',
         'Unit tested with Jest/Enzyme',
         'Google Analytics'
+      ]
+    },
+    {
+      title: 'microservice optimization',
+      link: 'https://github.com/SDC-Designer-Designers/search-bar-booking-tool',
+      cta: 'View Code on GitHub',
+      alt: 'system design capstone project details',
+      content: [
+        'Optimized the back end of an inherited microservice.',
+        'Generated and seeded 20 Million records to MongoDB to simulate enterprise level data set.',
+        'Horizontally scaled proxy server layer to 3 t2.micro instances.',
+        'Utilized NGINX to load balance throughput of test loads from Loader.io.',
+        'Achieved an average of 3000 RPS (up from benchmark of ~100 RPS) with 80ms latency (down from benchmark of ~1000ms) and less than 1% error rate.'
       ]
     }
     // {
