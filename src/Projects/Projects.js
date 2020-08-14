@@ -20,7 +20,7 @@ const Projects = () => {
     },
     {
       title: 'mrzedical.com',
-      link: 'mrzmedical.com',
+      link: 'http://mrzmedical.com',
       cta: 'Go to MRZ Medical',
       alt: 'MRZ Medical Wordpress Site',
       content: [
