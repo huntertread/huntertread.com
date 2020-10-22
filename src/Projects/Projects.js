@@ -58,6 +58,16 @@ const Projects = () => {
       ]
     }
     // {
+    //   title: 'raziasahi.com',
+    //   link: 'https://huntertread.github.io/r-sahi/',
+    //   cta: 'View WIP',
+    //   alt: 'razia sahi personal website',
+    //   content: [
+    //     'jQuery',
+    //     'Responsive design'
+    //   ]
+    // }
+    // {
     //   title: 'three.js demo',
     //   link: 'https://huntertread.github.io/threejsdemo/',
     //   cta: 'Go To Project',
