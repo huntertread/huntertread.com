@@ -21,13 +21,16 @@
 }
 
 .accordion-list {
-  /* display: flex;
-  flex-direction: column; */
   align-content: left;
+  padding-right: 15px;
 }
 
 .accordion-content.open {
   max-height: 700px;
+}
+
+.accordion-content li {
+  text-align: left;
 }
 
 .project-cta {
