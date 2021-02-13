@@ -31,11 +31,13 @@
 
 .accordion-content li {
   text-align: left;
+  list-style-type: none;
+  padding-bottom: 10px;
 }
 
 .project-cta {
   text-decoration: underline;
-  margin: 15px auto;
+  margin: 5px auto;
   height: 30px;
   max-width: 400px;
   min-width: 200px;

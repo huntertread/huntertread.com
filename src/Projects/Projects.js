@@ -6,6 +6,17 @@ const Projects = () => {
 
   const projectDetails = [
     {
+      title: 'patmcgrath.com',
+      link: 'https://patmcgrath.com',
+      cta: 'Go To Pat McGrath',
+      alt: 'pat mcgrath website link',
+      content: [
+        'Shopify | Liquid | SCSS | React | Git',
+        'On-going freelance contract',
+        'Work in a collaborative team environment to deliver new product features and enhancements'
+      ]
+    },
+    {
       title: 'theoog.net',
       link: 'https://theoog.net',
       cta: 'Go To Project',
@@ -19,7 +30,7 @@ const Projects = () => {
       ]
     },
     {
-      title: 'mrzedical.com',
+      title: 'mrzmedical.com',
       link: 'http://mrzmedical.com',
       cta: 'Go to MRZ Medical',
       alt: 'MRZ Medical Wordpress Site',
@@ -27,44 +38,43 @@ const Projects = () => {
         'Updated existing Wordpress theme with Covid-19 components',
         'Added Patient Education and Forms pages',
         'Refactored site to be mobile friendly with custom Media Queries',
-        'Fixed broken contact form and "Patient Portal" CTA on homepage',
-        'Figured it all out on the fly'
+        'Fixed broken contact form and "Patient Portal" CTA on homepage'
       ]
     },
+    // {
+    //   title: 'huntertread.com',
+    //   link: 'https://github.com/huntertread/personal-site',
+    //   cta: 'View Code On GitHub',
+    //   alt: 'hunter treadaway personal site project details',
+    //   content: [
+    //     'React Hooks',
+    //     'Responsive design',
+    //     'WCAG Compliant',
+    //     'Unit tested with Jest/Enzyme',
+    //     'Google Analytics'
+    //   ]
+    // },
     {
-      title: 'huntertread.com',
-      link: 'https://github.com/huntertread/personal-site',
-      cta: 'View Code On GitHub',
-      alt: 'hunter treadaway personal site project details',
+      title: 'raziasahi.com',
+      link: 'https://raziasahi.com',
+      cta: 'View Site',
+      alt: 'razia sahi personal website',
       content: [
-        'React Hooks',
-        'Responsive design',
-        'WCAG Compliant',
-        'Unit tested with Jest/Enzyme',
-        'Google Analytics'
-      ]
-    },
-    {
-      title: 'microservice optimization',
-      link: 'https://github.com/SDC-Designer-Designers/search-bar-booking-tool',
-      cta: 'View Code on GitHub',
-      alt: 'system design capstone project details',
-      content: [
-        'Optimized the back end of an inherited microservice.',
-        'Generated and seeded 20 Million records to MongoDB to simulate enterprise level data set.',
-        'Horizontally scaled proxy server layer to 3 t2.micro instances.',
-        'Utilized NGINX to load balance throughput of test loads from Loader.io.',
-        'Achieved an average of 3000 RPS (up from benchmark of ~100 RPS) with 80ms latency (down from benchmark of ~1000ms) and less than 1% error rate.'
+        'jQuery | HTML | CSS | Git',
+        'Responsive design'
       ]
     }
     // {
-    //   title: 'raziasahi.com',
-    //   link: 'https://huntertread.github.io/r-sahi/',
-    //   cta: 'View WIP',
-    //   alt: 'razia sahi personal website',
+    //   title: 'microservice optimization',
+    //   link: 'https://github.com/SDC-Designer-Designers/search-bar-booking-tool',
+    //   cta: 'View Code on GitHub',
+    //   alt: 'system design capstone project details',
     //   content: [
-    //     'jQuery',
-    //     'Responsive design'
+    //     'Optimized the back end of an inherited microservice.',
+    //     'Generated and seeded 20 Million records to MongoDB to simulate enterprise level data set.',
+    //     'Horizontally scaled proxy server layer to 3 t2.micro instances.',
+    //     'Utilized NGINX to load balance throughput of test loads from Loader.io.',
+    //     'Achieved an average of 3000 RPS (up from benchmark of ~100 RPS) with 80ms latency (down from benchmark of ~1000ms) and less than 1% error rate.'
     //   ]
     // }
     // {
