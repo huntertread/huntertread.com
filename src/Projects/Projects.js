@@ -11,7 +11,7 @@ const Projects = () => {
       cta: 'Go To Pat McGrath',
       alt: 'pat mcgrath website link',
       content: [
-        'Shopify | Liquid | SCSS | React | Git',
+        'Shopify | Liquid | SCSS | React | jQuery | Git',
         'On-going freelance contract',
         'Work in a collaborative team environment to deliver new product features and enhancements'
       ]
