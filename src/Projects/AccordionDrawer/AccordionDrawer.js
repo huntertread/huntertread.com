@@ -59,47 +59,6 @@ class AccordionDrawer extends Component {
       accOpen = "open"
     }
 
-    // let projectList;
-
-    // projectList = this.props.content.map((item, i) => (<li>{item}</li>))
-
-    // if (this.props.content.length === 1) {
-    //   projectList =
-    //     <ul className="accordion-list">
-    //       <li>{this.props.content[0]}</li>
-    //     </ul>
-    // } else if (this.props.content.length === 2) {
-    //   projectList =
-    //     <ul className="accordion-list">
-    //       <li>{this.props.content[0]}</li>
-    //       <li>{this.props.content[1]}</li>
-    //     </ul>
-    // } else if (this.props.content.length === 3) {
-    //   projectList =
-    //     <ul className="accordion-list">
-    //       <li>{this.props.content[0]}</li>
-    //       <li>{this.props.content[1]}</li>
-    //       <li>{this.props.content[2]}</li>
-    //     </ul>
-    // } else if (this.props.content.length === 4) {
-    //   projectList =
-    //     <ul className="accordion-list">
-    //       <li>{this.props.content[0]}</li>
-    //       <li>{this.props.content[1]}</li>
-    //       <li>{this.props.content[2]}</li>
-    //       <li>{this.props.content[3]}</li>
-    //     </ul>
-    // } else if (this.props.content.length === 5) {
-    //   projectList =
-    //     <ul className="accordion-list">
-    //       <li>{this.props.content[0]}</li>
-    //       <li>{this.props.content[1]}</li>
-    //       <li>{this.props.content[2]}</li>
-    //       <li>{this.props.content[3]}</li>
-    //       <li>{this.props.content[4]}</li>
-    //     </ul>
-    // }
-
     return (
       <div>
         <div className="accordion-header">
@@ -110,7 +69,6 @@ class AccordionDrawer extends Component {
           <ul className="accordion-list">
             {this.props.content.map((item, i) => (<li>{item}</li>))}
           </ul>
-          {/* {projectList} */}
           <a className="project-cta" href={this.props.link} target="blank" alt={`go to ${this.props.title} source code or live example`}>{this.props.cta}</a>
         </div>
       </div>
