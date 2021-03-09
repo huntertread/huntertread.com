@@ -7,13 +7,14 @@ const Projects = () => {
   const projectDetails = [
     {
       title: 'patmcgrath.com',
-      link: 'https://patmcgrath.com',
-      cta: 'Go To Pat McGrath',
+      link: 'https://patmcgrath.com/pages/shadefinder',
+      cta: 'Go To PMG Shadefinder',
       alt: 'pat mcgrath website link',
       content: [
         'Shopify | Liquid | SCSS | React | jQuery | Git',
         'On-going freelance contract',
-        'Work in a collaborative team environment to deliver new product features and enhancements'
+        'Work in a collaborative team environment to deliver new product features and enhancements',
+        'Shadefinder Quiz Modal - react app to help users find their shade of concealer and/or foundation'
       ]
     },
     {
@@ -29,18 +30,18 @@ const Projects = () => {
         'Responsive front end'
       ]
     },
-    {
-      title: 'mrzmedical.com',
-      link: 'http://mrzmedical.com',
-      cta: 'Go to MRZ Medical',
-      alt: 'MRZ Medical Wordpress Site',
-      content: [
-        'Updated existing Wordpress theme with Covid-19 components',
-        'Added Patient Education and Forms pages',
-        'Refactored site to be mobile friendly with custom Media Queries',
-        'Fixed broken contact form and "Patient Portal" CTA on homepage'
-      ]
-    },
+    // {
+    //   title: 'mrzmedical.com',
+    //   link: 'http://mrzmedical.com',
+    //   cta: 'Go to MRZ Medical',
+    //   alt: 'MRZ Medical Wordpress Site',
+    //   content: [
+    //     'Updated existing Wordpress theme with Covid-19 components',
+    //     'Added Patient Education and Forms pages',
+    //     'Refactored site to be mobile friendly with custom Media Queries',
+    //     'Fixed broken contact form and "Patient Portal" CTA on homepage'
+    //   ]
+    // },
     // {
     //   title: 'huntertread.com',
     //   link: 'https://github.com/huntertread/personal-site',
@@ -60,7 +61,7 @@ const Projects = () => {
       cta: 'View Site',
       alt: 'razia sahi personal website',
       content: [
-        'jQuery | HTML | CSS | Git',
+        'jQuery | HTML | CSS',
         'Responsive design'
       ]
     }
