@@ -14,7 +14,7 @@ const About = () => {
         <p>MySQL | PostgreSQL | MongoDB</p>
         <p>AWS EC2 | S3 | Route53</p>
       </div>
-      <a href="./downloadFiles/Hunter_Treadaway_Front_End_Engineer.pdf" download>Download Resume</a>
+      <a href="./downloadFiles/Hunter_Treadaway_Front_End_Software_Engineer.pdf" target="blank" >Resume</a>
       <p alt="a custom font is used which transforms alpha-numeric characters in to pixel monsters" className="character-container">yuyuy</p>
     </main>
   )
