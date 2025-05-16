@@ -98,7 +98,7 @@ const Projects = () => {
           projectDetails.map((project, i) => (<AccordionDrawer key={i} alt={project.alt} title={project.title} content={project.content} link={project.link} cta={project.cta} />))
         }
       </div>
-      <p className="character-container" alt="a custom font is used which transforms alpha-numeric characters in to pixel monsters">hunter</p>
+      <p className="character-container" alt="a custom font is used which transforms alpha-numeric characters in to pixel monsters">.</p>
     </main>
   )
 }
