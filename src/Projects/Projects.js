@@ -1,5 +1,6 @@
 import React from 'react'
 import AccordionDrawer from './AccordionDrawer/AccordionDrawer'
+import AccordionContainer from './AccordionContainer/AccordionContainer'
 import './projects.css'
 
 const Projects = () => {
@@ -93,10 +94,13 @@ const Projects = () => {
   return (
     <main role="main" id="project-section" className="projects">
       <h1>PROJECTS</h1>
-      <div className="projects-content">
+      {/* <div className="projects-content">
         {
           projectDetails.map((project, i) => (<AccordionDrawer key={i} alt={project.alt} title={project.title} content={project.content} link={project.link} cta={project.cta} />))
         }
+      </div> */}
+      <div className="projects-content">
+        <AccordionContainer projectDetails={projectDetails} />
       </div>
       <p className="character-container" alt="a custom font is used which transforms alpha-numeric characters in to pixel monsters">.</p>
     </main>
