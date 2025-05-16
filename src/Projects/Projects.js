@@ -13,8 +13,7 @@ const Projects = () => {
       alt: 'pat mcgrath website link',
       content: [
         'Shopify | Liquid | SCSS | React | jQuery | Git',
-        'On-going freelance contract',
-        'Work in a collaborative team environment to deliver new product features and enhancements',
+        'Worked as a freelance developer in a collaborative team environment to deliver new product features and enhancements',
         'Shadefinder Quiz Modal - react app to help users find their shade of concealer and/or foundation'
       ]
     },
@@ -94,11 +93,13 @@ const Projects = () => {
   return (
     <main role="main" id="project-section" className="projects">
       <h1>PROJECTS</h1>
+
       {/* <div className="projects-content">
         {
           projectDetails.map((project, i) => (<AccordionDrawer key={i} alt={project.alt} title={project.title} content={project.content} link={project.link} cta={project.cta} />))
         }
       </div> */}
+
       <div className="projects-content">
         <AccordionContainer projectDetails={projectDetails} />
       </div>
