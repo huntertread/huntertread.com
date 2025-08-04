@@ -16,7 +16,7 @@ const About = () => {
         <p>Certified Scrum Master. Fluent in Agile, Scrum, Waterfall</p>
         <p>Jira, Asana, Trello. Comfortable with any PM tool</p>
         <p>5 Years Experience in Digital Advertising</p>
-        <p>5 Years Experience in Fin Tech</p>
+        <p>5 Years Experience in FinTech</p>
         <p>10 years managing or working in development teams</p>
         <p>10 years delivering in high pressure environments</p>
         {/* <p>Hunter is calmer than a Fruitger Aero playlist</p> */}
