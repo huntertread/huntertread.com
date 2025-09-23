@@ -6,7 +6,7 @@ const About = () => {
     <main role="main" id="about-section" className="about">
       <h1>ABOUT</h1>
       <div className="about-content">
-        <h3 className="about-headline">Hunter is a Project Manager in Princeton, NJ.</h3>
+        <h3 className="about-headline">Hunter is a Creative Project Manager in Metro NYC.</h3>
         {/* <p>JavaScript | HTML5 | CSS3 | Bash</p>
         <p>React | Redux | Node | jQuery</p>
         <p>Styled-Components | SASS | SCSS</p>
@@ -27,7 +27,7 @@ const About = () => {
         <p>Hunter is calmer than a Frutiger Aero playlist</p>
         <p>He's also super kind and easy to work with (check out his LI refs)</p> */}
       </div>
-      <a href="./downloadFiles/Hunter_Treadaway_Front_End_Software_Engineer.pdf" target="blank" >Resume</a>
+      <a href="./downloadFiles/Hunter Treadaway - Creative Project Manager.pdf" target="blank" >Resume</a>
       <p alt="a custom font is used which transforms alpha-numeric characters in to pixel monsters" className="character-container">55</p>
     </main>
   )

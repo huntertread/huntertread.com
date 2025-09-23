@@ -85,8 +85,19 @@ class AccordionDrawer extends Component {
     this.onKeyEnter = this.onKeyEnter.bind(this);
   }
 
+  // onClickOpen() {
+  //   this.props.toggleAccordion(this.props.id);
+  // }
+
   onClickOpen() {
     this.props.toggleAccordion(this.props.id);
+
+    // Re-run Instagram embed processor if available
+    setTimeout(() => {
+      if (window.instgrm) {
+        window.instgrm.Embeds.process();
+      }
+    }, 0);
   }
 
   onKeyEnter(event) {
@@ -114,12 +125,36 @@ class AccordionDrawer extends Component {
             tabIndex="0"
           ></i>
         </div>
-        <div className={`accordion-content ${accOpen}`}>
+        {/* <div className={`accordion-content ${accOpen}`}>
           <ul className="accordion-list">
             {this.props.content.map((item, i) => (
               <li key={i}>{item}</li>
             ))}
           </ul>
+          <a
+            className="project-cta"
+            href={this.props.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            alt={`go to ${this.props.title} source code or live example`}
+          >
+            {this.props.cta}
+          </a>
+        </div> */}
+        <div className={`accordion-content ${accOpen}`}>
+          {/* If content is an array, render list. If string, treat as embed */}
+          {Array.isArray(this.props.content) ? (
+            <ul className="accordion-list">
+              {this.props.content.map((item, i) => (
+                <li key={i}>{item}</li>
+              ))}
+            </ul>
+          ) : (
+            <div
+              className="instagram-embed"
+              dangerouslySetInnerHTML={{ __html: this.props.content }}
+            />
+          )}
           <a
             className="project-cta"
             href={this.props.link}
