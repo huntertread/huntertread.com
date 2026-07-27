@@ -20,13 +20,17 @@
   transition: max-height 500ms ease;
 }
 
+.accordion-drawer {
+  scroll-margin-top: 25px;
+}
+
 .accordion-list {
   align-content: left;
   padding-right: 15px;
 }
 
 .accordion-content.open {
-  max-height: 700px;
+  max-height: 2000px;
 }
 
 .accordion-content li {
