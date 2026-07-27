@@ -2,6 +2,8 @@ import React from 'react'
 import AccordionDrawer from './AccordionDrawer/AccordionDrawer'
 import AccordionContainer from './AccordionContainer/AccordionContainer'
 import './projects.css'
+import aztec from "./ProjectImages/aztec.jpg";
+import homer from "./ProjectImages/homer.jpg";
 import finalSculpt from "./ProjectImages/finalsculpt.jpg";
 import glowFinal from "./ProjectImages/glowfinal.jpg";
 import readyShip from "./ProjectImages/readyship.jpg";

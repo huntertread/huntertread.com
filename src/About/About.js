@@ -13,6 +13,7 @@ const About = () => {
         <p>Jest | Enzyme | Mocha | Chai</p>
         <p>MySQL | PostgreSQL | MongoDB</p>
         <p>AWS EC2 | S3 | Route53</p> */}
+        <p>Creative Project Manager | Digital Product Delivery | Cross-Functional Operations</p>
         <p>Certified Scrum Master. Fluent in Agile, Scrum, Waterfall</p>
         <p>Jira, Asana, Trello. Comfortable with any PM tool</p>
         <p>5 Years Experience in Digital Advertising</p>
