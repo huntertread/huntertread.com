@@ -73,14 +73,17 @@ class AccordionContainer extends Component {
       <>
         {this.props.projectDetails.map((project, i) => (
           <AccordionDrawer
-            key={i}
-            id={i}
-            title={project.title}
-            content={project.content}
-            link={project.link}
-            cta={project.cta}
-            activeId={this.state.activeId}
-            toggleAccordion={this.toggleAccordion}
+              key={i}
+              id={i}
+              title={project.title}
+              type={project.type}
+              content={project.content}
+              images={project.images}
+              bullets={project.bullets}
+              link={project.link}
+              cta={project.cta}
+              activeId={this.state.activeId}
+              toggleAccordion={this.toggleAccordion}
           />
         ))}
       </>
