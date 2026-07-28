@@ -7,7 +7,6 @@ const About = () => {
       <h1>ABOUT</h1>
       <div className="about-content">
         <h3 className="about-headline">Hunter is a Creative Project Manager in Metro NYC.</h3>
-        <p>He bridges the gap between creative vision and technical execution, helping teams transform ideas into digital products and experiences.</p>
         <p>Creative Project Manager | Digital Product Delivery | Cross-Functional Operations</p>
         <p>Certified ScrumMaster experienced in Agile, Scrum, and hybrid delivery environments.</p>
         <p>10+ years partnering with designers, developers, QA teams, and business stakeholders.</p>

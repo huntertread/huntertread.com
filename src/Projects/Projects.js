@@ -12,12 +12,14 @@ import tinMold from "./ProjectImages/tinmold.jpg";
 import waxHead from "./ProjectImages/waxhead.jpg";
 import preWax from "./ProjectImages/prewax.jpg";
 import original from "./ProjectImages/original.jpg";
+import rsahi from "./ProjectImages/rsahi.png";
+import pmg from "./ProjectImages/pmg.png";
 
 const Projects = () => {
 
   const projectDetails = [
     {
-      title: 'Custom Soft Vinyl Toy',
+      title: 'Soft Vinyl Toy - Concept to Production',
       cta: 'Buy From Me',
       alt: 'custom soft vinyl toy',
       type: 'gallery',
@@ -34,49 +36,87 @@ const Projects = () => {
         original
       ],
       bullets: [
-        'Conceived and hand-sculpted an original soft vinyl collectible figure from concept to final prototype.',
-        'Coordinated manufacturing with an independent production partner in Mexico, overseeing prototype revisions and final production.',
-        'Designed product packaging and prepared finished products for direct-to-consumer sales.',
-        'Managed order fulfillment, shipping, and customer communication through Instagram.'
+        <b>PROJECT</b>,
+        'Independent Product Development',
+        <b>ROLE</b>,
+        'Creator | Producer | Product Designer',
+        <b>CHALLENGE</b>,
+        'Create and launch an original collectible while independently managing design, manufacturing, branding, and fulfillment.',
+        <b>SOLUTION</b>,
+        'Hand-sculpted the prototype, partnered with a manufacturer in Mexico, designed custom packaging, and coordinated production through launch.',
+        <b>OUTCOME</b>,
+        'Successfully transformed an original concept into a finished consumer product sold directly through Instagram.',
+        <b>TOOLS</b>,
+        'Clay Sculpting | Manufacturing Coordination | Packaging Design | Product Photography | Instagram'
       ]
     },
     {
-      title: 'patmcgrath.com',
+      title: 'Pat McGrath Labs - Web Development',
       link: 'https://patmcgrath.com/pages/shadefinder',
       cta: 'Go To PMG Shadefinder',
       alt: 'pat mcgrath website link',
-      type: 'list',
-      content: [
-        'Shopify | Liquid | SCSS | React | jQuery | Git',
-        'Worked as a freelance developer in a collaborative team environment to deliver new product features and enhancements',
-        'Shadefinder Quiz Modal - react app to help users find their shade of concealer and/or foundation'
+      type: 'gallery',
+      images: [
+        pmg
+      ],
+      bullets: [
+        <b>PROJECT</b>,
+        'Digital Experience Development',
+        <b>ROLE</b>,
+        'Front-End Developer',
+        <b>CHALLENGE</b>,
+        'Translate premium creative designs into responsive, production-ready web experiences.',
+        <b>SOLUTION</b>,
+        'Collaborated with designers and developers to implement responsive interfaces while maintaining design fidelity across devices.',
+        <b>OUTCOME</b>,
+        'Delivered polished customer-facing experiences that balanced creative direction with technical execution.',
+        <b>TOOLS</b>,
+        'Shopify | Liquid | SCSS | React | jQuery | Git'
       ]
     },
     {
-      title: 'raziasahi.com',
+      title: 'Rutgers Research Lab - Design, Development, Deployment',
       link: 'https://raziasahi.com',
       cta: 'View Site',
       alt: 'razia sahi personal website',
-      type: 'list',
-      content: [
-        'jQuery | HTML | CSS',
-        'Responsive design',
-        'Designed and developed with the intention of someone with no development experience being able to take over and make updates'
+      type: 'gallery',
+      images: [
+        rsahi
+      ],
+      bullets: [
+        <b>PROJECT</b>,
+        'Research Lab Website',
+        <b>ROLE</b>,
+        'Project Lead | Designer | Developer',
+        <b>CHALLENGE</b>,
+        'Build a professional research website that future lab managers could maintain without extensive development experience.',
+        <b>SOLUTION</b>,
+        'Designed a lightweight codebase with minimal JavaScript, configured the custom domain through Amazon Route 53, and deployed the site using GitHub Pages.',
+        <b>OUTCOME</b>,
+        'Delivered a sustainable digital platform that communicates the lab’s research while remaining easy to update over time.',
+        <b>TOOLS</b>,
+        'jQuery | HTML | CSS | GitHub Pages | Amazon Route 53'
       ]
     },
     {
-      title: 'huntertread.com',
+      title: 'Personal Portfolio - Design, Development, Deployment',
       link: 'https://github.com/huntertread/personal-site',
       cta: 'View Code On GitHub',
       alt: 'hunter treadaway personal site project details',
       type: 'list',
       content: [
-        'React Hooks',
-        'Responsive design',
-        'WCAG Compliant',
-        'Unit tested with Jest/Enzyme',
-        'Google Analytics',
-        'Concepted to envoke the feeling of a retro video game on CRT'
+        <b>PROJECT</b>,
+        'Personal Portfolio Website',
+        <b>ROLE</b>,
+        'Creative Director | Designer | Developer',
+        <b>CHALLENGE</b>,
+        'Create a portfolio that reflects my multidisciplinary background through a simple, focused user experience.',
+        <b>SOLUTION</b>,
+        'Designed and developed a minimalist React application, deployed it through GitHub Pages, and continue to maintain and evolve the experience through regular updates.',
+        <b>OUTCOME</b>,
+        'Built a portfolio that showcases both technical capability and creative thinking while continually evolving alongside my career.',
+        <b>TOOLS</b>,
+        'React | JavaScript | HTML | CSS | GitHub Pages | Amazon Route 53'
       ]
     }
     // {
