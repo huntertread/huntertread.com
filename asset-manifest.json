@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5572ac68.chunk.css",
+    "main.js": "/static/js/main.e629726c.chunk.js",
+    "main.js.map": "/static/js/main.e629726c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.98ffbd2d.js",
+    "runtime-main.js.map": "/static/js/runtime-main.98ffbd2d.js.map",
+    "static/js/2.5c446588.chunk.js": "/static/js/2.5c446588.chunk.js",
+    "static/js/2.5c446588.chunk.js.map": "/static/js/2.5c446588.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d2ea35c7130452e0ff6bed28e318a304.js": "/precache-manifest.d2ea35c7130452e0ff6bed28e318a304.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.5572ac68.chunk.css.map": "/static/css/main.5572ac68.chunk.css.map",
+    "static/js/2.5c446588.chunk.js.LICENSE.txt": "/static/js/2.5c446588.chunk.js.LICENSE.txt",
+    "static/media/aztec.jpg": "/static/media/aztec.7ab9c15b.jpg",
+    "static/media/finalsculpt.jpg": "/static/media/finalsculpt.372a9950.jpg",
+    "static/media/glowfinal.jpg": "/static/media/glowfinal.a908d114.jpg",
+    "static/media/homer.jpg": "/static/media/homer.a5276434.jpg",
+    "static/media/App.css": "/static/media/xevious.84b12948.ttf",
+    "static/media/original.jpg": "/static/media/original.4797a80c.jpg",
+    "static/media/pmg.png": "/static/media/pmg.ac0b7bdc.png",
+    "static/media/prewax.jpg": "/static/media/prewax.cd5ee5d0.jpg",
+    "static/media/prototype.jpg": "/static/media/prototype.232cffab.jpg",
+    "static/media/readyship.jpg": "/static/media/readyship.1e7fe9eb.jpg",
+    "static/media/rsahi.png": "/static/media/rsahi.6dbd5e8e.png",
+    "static/media/tinmold.jpg": "/static/media/tinmold.aa061285.jpg",
+    "static/media/waxhead.jpg": "/static/media/waxhead.2ab45cce.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98ffbd2d.js",
+    "static/js/2.5c446588.chunk.js",
+    "static/css/main.5572ac68.chunk.css",
+    "static/js/main.e629726c.chunk.js"
+  ]
+}
