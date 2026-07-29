@@ -6,108 +6,169 @@ class ProjectGallery extends Component {
     super(props);
 
     this.state = {
-      current: 0,
-      enlarged: false
+      activeIndex: 0,
+      enlarged: false,
+      direction: null
     };
+
+    this.touchStartX = 0;
+    this.touchEndX = 0;
+
+    this.nextImage = this.nextImage.bind(this);
+    this.previousImage = this.previousImage.bind(this);
+    this.toggleImage = this.toggleImage.bind(this);
+    this.handleTouchStart = this.handleTouchStart.bind(this);
+    this.handleTouchMove = this.handleTouchMove.bind(this);
+    this.handleTouchEnd = this.handleTouchEnd.bind(this);
   }
 
-  next = () => {
-    this.setState({
-      current:
-        (this.state.current + 1) %
-        this.props.images.length
-    });
-  };
 
-  previous = () => {
-    this.setState({
-      current:
-        (this.state.current - 1 + this.props.images.length) %
-        this.props.images.length
-    });
-  };
+  nextImage() {
+    this.setState((prevState) => ({
+      activeIndex:
+        prevState.activeIndex === this.props.images.length - 1
+          ? 0
+          : prevState.activeIndex + 1,
+      direction: "next"
+    }));
+  }
 
-  selectImage = (index) => {
-    this.setState({
-      current: index
-    });
-  };
 
-  toggleEnlarge = () => {
-    this.setState({
-      enlarged: !this.state.enlarged
-    });
-  };
+  previousImage() {
+    this.setState((prevState) => ({
+      activeIndex:
+        prevState.activeIndex === 0
+          ? this.props.images.length - 1
+          : prevState.activeIndex - 1,
+      direction: "previous"
+    }));
+  }
+
+
+  toggleImage() {
+    this.setState((prevState) => ({
+      enlarged: !prevState.enlarged
+    }));
+  }
+
+
+  handleTouchStart(event) {
+    this.touchStartX = event.touches[0].clientX;
+  }
+
+
+  handleTouchMove(event) {
+    this.touchEndX = event.touches[0].clientX;
+  }
+
+
+  handleTouchEnd() {
+    const swipeDistance =
+      this.touchStartX - this.touchEndX;
+
+    if (Math.abs(swipeDistance) < 50) {
+      return;
+    }
+
+    if (swipeDistance > 0) {
+      this.nextImage();
+    } else {
+      this.previousImage();
+    }
+  }
+
 
   render() {
-    const image =
-      this.props.images[this.state.current];
+
+    const {
+      images,
+      bullets
+    } = this.props;
+
+    const {
+      activeIndex,
+      enlarged,
+      direction
+    } = this.state;
+
 
     return (
-      <>
-        <div className="gallery">
+      <div className="project-gallery">
 
-          <div className="gallery-main">
+        <div
+          className="gallery-image-container"
+          onTouchStart={this.handleTouchStart}
+          onTouchMove={this.handleTouchMove}
+          onTouchEnd={this.handleTouchEnd}
+        >
 
+          {images.length > 1 && (
             <button
-              className="gallery-arrow"
-              onClick={this.previous}
+              className="gallery-arrow left"
+              onClick={this.previousImage}
+              aria-label="Previous image"
             >
-              ◀
+              &#10094;
             </button>
+          )}
 
-            <img
-              src={image}
-              alt=""
-              onClick={this.toggleEnlarge}
-            />
 
+          <img
+            key={activeIndex}
+            className={`gallery-image ${direction || ""}`}
+            src={images[activeIndex]}
+            alt={`Project image ${activeIndex + 1}`}
+            onClick={this.toggleImage}
+            onAnimationEnd={() =>
+              this.setState({ direction: null })
+            }
+          />
+
+
+          {images.length > 1 && (
             <button
-              className="gallery-arrow"
-              onClick={this.next}
+              className="gallery-arrow right"
+              onClick={this.nextImage}
+              aria-label="Next image"
             >
-              ▶
+              &#10095;
             </button>
-
-          </div>
-
-          <div className="gallery-thumbnails">
-
-            {this.props.images.map((img, index) => (
-              <img
-                key={index}
-                src={img}
-                alt=""
-                className={
-                  index === this.state.current
-                    ? "active"
-                    : ""
-                }
-                onClick={() =>
-                  this.selectImage(index)
-                }
-              />
-            ))}
-
-          </div>
-
-          <ul className="gallery-bullets">
-            {this.props.bullets.map((bullet, index) => (
-              <li key={index}>{bullet}</li>
-            ))}
-          </ul>
-
-          {this.state.enlarged && (
-            <div
-              className="gallery-modal"
-              onClick={this.toggleEnlarge}
-            >
-              <img src={image} alt="" />
-            </div>
           )}
 
         </div>
-      </>
+
+
+        {enlarged && (
+          <div
+            className="image-overlay"
+            onClick={this.toggleImage}
+          >
+            <img
+              src={images[activeIndex]}
+              alt={`Expanded project image ${activeIndex + 1}`}
+            />
+          </div>
+        )}
+
+
+        {images.length > 1 && (
+          <div className="gallery-counter">
+            {activeIndex + 1} / {images.length}
+          </div>
+        )}
+
+
+        {bullets && (
+          <ul className="gallery-bullets">
+            {bullets.map((bullet, index) => (
+              <li key={index}>
+                {bullet}
+              </li>
+            ))}
+          </ul>
+        )}
+
+      </div>
     );
   }
 }

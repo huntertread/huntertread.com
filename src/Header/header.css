@@ -6,6 +6,7 @@
   width: 100%;
   background-color: rgba(0, 0, 0, 0.8);
   position: fixed;
+  z-index: 1500;
 }
 
 .header-home a {
@@ -35,6 +36,7 @@
   width: 100%;
   background-color: rgba(0, 0, 0, 0.8);
   position: fixed;
+  z-index: 1500;
 }
 
 .header-about a {
@@ -64,6 +66,7 @@
   width: 100%;
   background-color: rgba(0, 0, 0, 0.8);
   position: fixed;
+  z-index: 1500;
 }
 
 .header-projects a {
@@ -93,6 +96,7 @@
   width: 100%;
   background-color: rgba(0, 0, 0, 0.8);
   position: fixed;
+  z-index: 1500;
 }
 
 .header-contact a {

@@ -18,7 +18,7 @@
   position: fixed;
   display: flex;
   flex-direction: column;
-  z-index: 5;
+  z-index: 2000;
 }
 
 .open-burger-home a {
@@ -40,7 +40,7 @@
   position: fixed;
   display: flex;
   flex-direction: column;
-  z-index: 5;
+  z-index: 2000;
 }
 
 .open-burger-about a {
@@ -62,7 +62,7 @@
   position: fixed;
   display: flex;
   flex-direction: column;
-  z-index: 5;
+  z-index: 2000;
 }
 
 .open-burger-projects a {
@@ -84,7 +84,7 @@
   position: fixed;
   display: flex;
   flex-direction: column;
-  z-index: 5;
+  z-index: 2000;
 }
 
 .open-burger-contact a {

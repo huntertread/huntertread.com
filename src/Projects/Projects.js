@@ -24,7 +24,6 @@ const Projects = () => {
       alt: 'custom soft vinyl toy',
       type: 'gallery',
       images: [
-        homer,
         aztec,
         finalSculpt,
         glowFinal,

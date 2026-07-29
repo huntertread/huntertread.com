@@ -4,6 +4,7 @@
   flex-direction: row-reverse;
   position: fixed;
   background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1500;
 }
 
 .header-home-mobile i {
@@ -18,6 +19,7 @@
   flex-direction: row-reverse;
   position: fixed;
   background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1500;
 }
 
 .header-about-mobile i {
@@ -32,6 +34,7 @@
   flex-direction: row-reverse;
   position: fixed;
   background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1500;
 }
 
 .header-project-mobile i {
@@ -46,6 +49,7 @@
   flex-direction: row-reverse;
   position: fixed;
   background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1500;
 }
 
 .header-contact-mobile i {
