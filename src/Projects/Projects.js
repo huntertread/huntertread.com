@@ -44,13 +44,13 @@ const Projects = () => {
         <b>SOLUTION</b>,
         'Hand-sculpted the prototype, partnered with a manufacturer in Mexico, designed custom packaging, and coordinated production through launch.',
         <b>OUTCOME</b>,
-        'Successfully transformed an original concept into a finished consumer product sold directly through Instagram.',
-        <b>TOOLS</b>,
+        'Transformed an original concept into a finished collectible product sold directly to customers through Instagram.',
+        <b>CAPABILITIES</b>,
         'Clay Sculpting | Manufacturing Coordination | Packaging Design | Product Photography | Instagram'
       ]
     },
     {
-      title: 'Pat McGrath Labs - Web Development',
+      title: 'Pat McGrath Labs - Digital Experience Development',
       link: 'https://patmcgrath.com/pages/shadefinder',
       cta: 'Go To PMG Shadefinder',
       alt: 'pat mcgrath website link',
@@ -60,7 +60,7 @@ const Projects = () => {
       ],
       bullets: [
         <b>PROJECT</b>,
-        'Digital Experience Development',
+        'E-commerce Website Development',
         <b>ROLE</b>,
         'Front-End Developer',
         <b>CHALLENGE</b>,
@@ -68,7 +68,7 @@ const Projects = () => {
         <b>SOLUTION</b>,
         'Collaborated with designers and developers to implement responsive interfaces while maintaining design fidelity across devices.',
         <b>OUTCOME</b>,
-        'Delivered polished customer-facing experiences that balanced creative direction with technical execution.',
+        'Supported the delivery of polished customer-facing experiences for a globally recognized beauty brand.',
         <b>TOOLS</b>,
         'Shopify | Liquid | SCSS | React | jQuery | Git'
       ]
@@ -88,13 +88,13 @@ const Projects = () => {
         <b>ROLE</b>,
         'Project Lead | Designer | Developer',
         <b>CHALLENGE</b>,
-        'Build a professional research website that future lab managers could maintain without extensive development experience.',
+        'Create a professional research website that could be easily maintained by future lab managers with limited development experience.',
         <b>SOLUTION</b>,
-        'Designed a lightweight codebase with minimal JavaScript, configured the custom domain through Amazon Route 53, and deployed the site using GitHub Pages.',
+        'Designed a lightweight codebase with minimal JavaScript, configured the domain through Amazon Route 53, and deployed the site using GitHub Pages.',
         <b>OUTCOME</b>,
-        'Delivered a sustainable digital platform that communicates the lab’s research while remaining easy to update over time.',
+        'Created a sustainable digital platform that communicates complex research while enabling simple long-term maintenance.',
         <b>TOOLS</b>,
-        'jQuery | HTML | CSS | GitHub Pages | Amazon Route 53'
+        'HTML | CSS | jQuery | GitHub Pages | Amazon Route 53'
       ]
     },
     {
@@ -105,15 +105,15 @@ const Projects = () => {
       type: 'list',
       content: [
         <b>PROJECT</b>,
-        'Personal Portfolio Website',
+        'Personal Brand Website',
         <b>ROLE</b>,
         'Creative Director | Designer | Developer',
         <b>CHALLENGE</b>,
-        'Create a portfolio that reflects my multidisciplinary background through a simple, focused user experience.',
+        'Create a digital portfolio that represents a multidisciplinary background across project management, development, and creative production.',
         <b>SOLUTION</b>,
-        'Designed and developed a minimalist React application, deployed it through GitHub Pages, and continue to maintain and evolve the experience through regular updates.',
+        'Designed and developed a minimalist React application, managed domain configuration through Amazon Route 53, and deployed the site using GitHub Pages.',
         <b>OUTCOME</b>,
-        'Built a portfolio that showcases both technical capability and creative thinking while continually evolving alongside my career.',
+        'Built a continuously evolving platform showcasing creative projects, technical skills, and end-to-end ownership.',
         <b>TOOLS</b>,
         'React | JavaScript | HTML | CSS | GitHub Pages | Amazon Route 53'
       ]
