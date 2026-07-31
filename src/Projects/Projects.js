@@ -37,16 +37,16 @@ const Projects = () => {
       bullets: [
         <b>PROJECT</b>,
         'Independent Product Development',
-        <b>ROLE</b>,
+        <b>RESPONSIBILITIES</b>,
         'Creator | Producer | Product Designer',
         <b>CHALLENGE</b>,
-        'Create and launch an original collectible while independently managing design, manufacturing, branding, and fulfillment.',
+        'Bring an original collectible from concept to market while independently managing every phase of product development.',
         <b>SOLUTION</b>,
-        'Hand-sculpted the prototype, partnered with a manufacturer in Mexico, designed custom packaging, and coordinated production through launch.',
+        'Sculpted the original prototype, coordinated manufacturing in Mexico, designed custom packaging, and managed production through final delivery.',
         <b>OUTCOME</b>,
-        'Transformed an original concept into a finished collectible product sold directly to customers through Instagram.',
-        <b>CAPABILITIES</b>,
-        'Clay Sculpting | Manufacturing Coordination | Packaging Design | Product Photography | Instagram'
+        'Successfully delivered an original consumer product from concept through manufacturing, branding, and direct-to-consumer sales.',
+        <b>SKILLS</b>,
+        'Product Design | Manufacturing | Packaging | Photography | Marketing'
       ]
     },
     {
@@ -61,14 +61,14 @@ const Projects = () => {
       bullets: [
         <b>PROJECT</b>,
         'E-commerce Website Development',
-        <b>ROLE</b>,
+        <b>RESPONSIBILITIES</b>,
         'Front-End Developer',
         <b>CHALLENGE</b>,
-        'Translate premium creative designs into responsive, production-ready web experiences.',
+        'Deliver premium digital experiences while maintaining quality, responsiveness, and design fidelity across devices.',
         <b>SOLUTION</b>,
-        'Collaborated with designers and developers to implement responsive interfaces while maintaining design fidelity across devices.',
+        'Partnered with designers and developers to implement responsive interfaces, translating creative direction into production-ready solutions.',
         <b>OUTCOME</b>,
-        'Supported the delivery of polished customer-facing experiences for a globally recognized beauty brand.',
+        'Contributed to the successful delivery of polished customer-facing experiences for a global beauty brand.',
         <b>TOOLS</b>,
         'Shopify | Liquid | SCSS | React | jQuery | Git'
       ]
@@ -85,16 +85,16 @@ const Projects = () => {
       bullets: [
         <b>PROJECT</b>,
         'Research Lab Website',
-        <b>ROLE</b>,
+        <b>RESPONSIBILITIES</b>,
         'Project Lead | Designer | Developer',
         <b>CHALLENGE</b>,
-        'Create a professional research website that could be easily maintained by future lab managers with limited development experience.',
+        'Deliver a professional research website that could be easily maintained by future lab administrators.',
         <b>SOLUTION</b>,
-        'Designed a lightweight codebase with minimal JavaScript, configured the domain through Amazon Route 53, and deployed the site using GitHub Pages.',
+        'Designed a lightweight architecture, configured deployment through GitHub Pages, and prioritized long-term maintainability with minimal JavaScript.',
         <b>OUTCOME</b>,
-        'Created a sustainable digital platform that communicates complex research while enabling simple long-term maintenance.',
-        <b>TOOLS</b>,
-        'HTML | CSS | jQuery | GitHub Pages | Amazon Route 53'
+        'Delivered a sustainable platform that continues to support the lab while enabling simple long-term maintenance.',
+        <b>SKILLS</b>,
+        'UX Design | Front-End Development | Deployment | Content Strategy'
       ]
     },
     {
@@ -106,14 +106,14 @@ const Projects = () => {
       content: [
         <b>PROJECT</b>,
         'Personal Brand Website',
-        <b>ROLE</b>,
+        <b>RESPONSIBILITIES</b>,
         'Creative Director | Designer | Developer',
         <b>CHALLENGE</b>,
-        'Create a digital portfolio that represents a multidisciplinary background across project management, development, and creative production.',
+        'Create a portfolio that communicates both technical expertise and project leadership through a simple digital experience.',
         <b>SOLUTION</b>,
-        'Designed and developed a minimalist React application, managed domain configuration through Amazon Route 53, and deployed the site using GitHub Pages.',
+        'Defined the product vision, designed the user experience, developed the application in React, and managed deployment through GitHub Pages.',
         <b>OUTCOME</b>,
-        'Built a continuously evolving platform showcasing creative projects, technical skills, and end-to-end ownership.',
+        'Delivered a platform that continues to evolve alongside my professional experience and creative work.',
         <b>TOOLS</b>,
         'React | JavaScript | HTML | CSS | GitHub Pages | Amazon Route 53'
       ]
